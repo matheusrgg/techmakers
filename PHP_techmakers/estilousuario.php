@@ -37,11 +37,7 @@
           <div class="nav-wrapper"></div>
         </nav>
       </div>
-      <!-- <div class="text-center">
-    <div class="container-fluid mb-3">
-      <div class="row">
-        <div class="col-md-12"><img class="d-block m-0 mx-auto" src="imagens/sequencia2.jpg" width="150"></div>
-      </div> -->
+
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-success"><b>Qual o seu estilo ?</b></h1>
@@ -49,39 +45,54 @@
       </div>
     </div>
   </div>
-  <!-- Início dos ESTILOS de usuários -->
-  <div class="card-deck">
-    <div class="card">
-      <img class="card-img-top" src="imagens/gamer.jpg" alt="Imagem do computador desktop">
-      <div class="card-body">
-        <h1 class="card-title">Gamer</h1>
-        <p class="card-text">Jogar jogos que demanda velocidade do computador, alta qualidade de placas de vídeo e internet. Som de qualidade superior e acessórios específicos.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="imagens/usopessoal.jpg" alt="Imagem do computador desktop">
-      <div class="card-body">
-        <h1 class="card-title" style="">Uso Pessoal</h1>
-        <p class="card-text">Navegar na Internet, utilização de programas completos. Pacote completo do Office. Maior mobilidade.&nbsp;</p>
-      </div>
-    </div>
-    <div class="card">
-      <a href="motivoprofissional.php"><img class="card-img-top" src="imagens/usoprofissional.jpg" alt="Imagem do computador desktop"></a>
-      <div class="card-body">
-        <h1>Uso Profissional</h1>
-        <p class="card-text">Maior produtividade com programas de edição de imagem e vídeo, maior capacidade de memória.</p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="imagens/outros.jpg" alt="Imagem do computador desktop">
-      <div class="card-body">
-        <h1>Outros</h1>
-        <p class="card-text">Rimis pellentesque fames hac curae sagittis lobortis curabitur inceptos, justo etiam sit feugiat arcu sodales venenatis. nam vivamus molestie odio in quisque cursus accumsan etia.</p>
-      </div>
-    </div>
-    <!-- Fim dos ESTILOS de usuários -->
-  </div>
 
+    <!--- Início do container para os ESTILOS de escolha para os usuários --->
+    <div class="container">
+
+        <!--- Início da LINHA do container --->
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <a href="TelaGames.php"><img class="card-img-top" src="imagens/gamer.jpg" alt="Imagem do computador desktop"></a>
+                  <div class="card-body">
+                    <h1 class="card-title text-center">
+                      <a href="TelaGames.php">Gamer</a>
+                    </h1>
+                    <p class="card-text">Jogos que demanda velocidade do computador, alta qualidade de placas de vídeo e internet. Som de qualidade superior e acessórios específicos.</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <a href="#"><img class="card-img-top" src="imagens/usopessoal.jpg" alt="Imagem do computador desktop"></a>
+                  <div class="card-body">
+                    <h1 class="card-title text-center">
+                      <a href="#">Uso Pessoal</a>
+                    </h1>
+                    <p class="card-text">Navegar na Internet, utilização de programas completos. Pacote completo do Office. Maior mobilidade.&nbsp;</p>
+                  </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                  <a href="motivoprofissional.php"><img class="card-img-top" src="imagens/usoprofissional.jpg" alt="Imagem do computador desktop"></a>
+                  <div class="card-body">
+                    <h1 class="card-title text-center">
+                      <a href="motivoprofissional.php">Uso Profissional</a>
+                    </h1>
+                    <p class="card-text">Maior produtividade com programas de edição de imagem e vídeo, maior capacidade de memória.</p>
+                  </div>
+              </div>
+            </div>
+
+        <!--- Fim da LINHA do container --->
+        </div>
+
+      <!--- Fim do container para os ESTILOS de escolha para os usuários --->
+      </div>
 
 </main>
 
