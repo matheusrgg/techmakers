@@ -30,8 +30,12 @@
       </div>
     </div>
   </div>
+  
   <div class="text-center">
-    <div class="container-fluid">
+
+    <!-- Incluido no container, um padding de pb-5 para não ficar grudado no footer da página. -->
+    <div class="container-fluid pb-5">
+      
       <div class="row justify-content-center">
         <nav>
           <div class="nav-wrapper">
