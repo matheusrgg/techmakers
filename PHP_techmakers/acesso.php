@@ -18,7 +18,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar6">
         <!--- Início do Logotipo --->
-        <a class="navbar-brand text-primary d-none d-md-block" href="painel_administrativo.php">
+        <a class="navbar-brand text-primary d-none d-md-block" href="painel_adm/PainelAdm.php">
           <img src="imagens/TechMakers_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
           <b class="text-success"> TechMakers</b>
           <!--- Fim do Logotipo --->
