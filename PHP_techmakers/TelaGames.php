@@ -37,7 +37,7 @@
     </header> -->
 
     <section id="back" class="banner container">
-    <h5 class="card-text text-center"> Escolha um caralho </h5>
+    <h5 class="card-text text-center"> Faça a sua escolha </h5>
         <div class="d-flex justify-content-center">
     <div class="col-lg-4 col-md-6 mb-4">
          <div class="card h-100">
