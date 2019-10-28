@@ -69,7 +69,7 @@
                   <a href="#"><img class="card-img-top" src="imagens/usopessoal.jpg" alt="Imagem do computador desktop"></a>
                   <div class="card-body">
                     <h1 class="card-title text-center">
-                      <a href="#">Uso Pessoal</a>
+                      <a href="motivoPessoal.php">Uso Pessoal</a>
                     </h1>
                     <p class="card-text">Navegar na Internet, utilização de programas completos. Pacote completo do Office. Maior mobilidade.&nbsp;</p>
                   </div>
