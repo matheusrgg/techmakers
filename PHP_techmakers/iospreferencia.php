@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -18,68 +19,81 @@
   include_once("header.php");
 ?>
 
-<main> 
-
-  <!-- Foto da Matrix de fundo após o menu principal -->
-  <div class="text-center mx-3 mb-3" style="background-image: url('imagens/matrix1.jpg');background-size:cover;">
-    <div class="container">
-      <div class="row">
-        <div class="mx-auto">
-          <h1 class="display-5 text-light">Vamos te ajudar <br>a encontrar o seu computador ideal</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="text-center">
-
-    <!-- Incluido no container, um padding de pb-5 para não ficar grudado no footer da página. -->
-    <div class="container-fluid pb-5">
-
-      <div class="row justify-content-center">
-        <nav>
-          <div class="nav-wrapper">
-            <div class="col s12 d-inline-flex align-items-center">
-              <a href="estilousuario.php" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/1p.jpg" width="35" height="35"></a>
-              <a href="motivoprofissional.php" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/2p.jpg" width="35" height="35"></a>
-              <a href="#!" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/3p.jpg" width="35" height="35"></a>
-              <a href="#!" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/4c.jpg" width="35" height="35"></a>
+    <!-- Início -- Foto Matrix de fundo no banner e Título "Vamos te ajudar..." que aparece em cima do banner   -->
+    <div class="text-center mx-3 mb-3" style="background-image: url('imagens/matrix1.jpg');background-size:cover;">
+        <div class="container">
+          <div class="row">
+            <div class="mx-auto">
+              <h1 class="display-5 text-light">Vamos te ajudar <br>a encontrar o seu computador Gamer !</h1>
             </div>
           </div>
-        </nav>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="text-success"><b>Qual a sua preferência ?</b></h1>
         </div>
-      </div>
-      <!-- Início dos 2 tipos de PREFERÊNCIAS -->
-      <div class="card-deck">
-        <div class="card">
-          <!--                  <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card"> -->
-          <div class="card-body">
-            <h5 class="card-title">Computador Desktop</h5>
-            <p class="card-text">Para você que prioriza uma tela maior, <br> alto desempenho e custo-benefício.</p>
-          </div>
-          <div class="card-footer">
-            <a href="iosdesktop.php" class="btn btn-success">Escolher...</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Notebook</h5>
-            <p class="card-text">Para você que precisa de mobilidade <br>e ter sempre um computador a disposição.</p>
-          </div>
-          <div class="card-footer">
-            <a href="iosnotebook.php" class="btn btn-success">Escolher...</a>
-          </div>
-        </div>
-      </div>
+    <!-- Fim -- Foto Matrix de fundo no banner e Título "Vamos te ajudar..." que aparece em cima do banner   -->    
     </div>
-  </div>
 
-      </main>
+
+    <section id="back" class="banner container mb-4 pb-5">
+  
+                  <!-- INÍCIO -- Numeração em sequência das páginas 1 2 3 ...   -->
+                  <div class="row justify-content-center">
+                      <nav>
+                        <div class="nav-wrapper">
+                            <div class="col s12 d-inline-flex align-items-center">
+                                <a href="estilousuario.php" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/1p.jpg" width="35" height="35"></a>
+                                <a href="motivoprofissional.php" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/2p.jpg" width="35" height="35"></a>
+                                <a class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/3p.jpg" width="35" height="35"></a>
+                                <a class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/4c.jpg" width="35" height="35"></a>
+                            </div>
+                        </div> 
+                      </nav>
+                  <!--  FIM  -- Numeração em sequência das páginas 1 2 3 ...    -->                         
+                  </div> 
+
+
+                  <!-- INÍCIO -- Linha onde aparece a pergunta "Qual a sua preferência ?"  -->
+                  <div class="row text-center">
+                    <div class="col-md-12 pt-1 pb-3">
+                      <h2 class="text-success">Qual a sua preferência ?</h2>
+                    </div>
+                  <!--   FIM  -- Linha onde aparece a pergunta "Qual a sua preferência ?"  -->
+                  </div>
+
+                  <!--- Início dos cards com as fotos dos Computadores  --->
+                  <div class="d-flex justify-content-center">
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                      <!-- <img class="card-img-top" src="imagens/nootbokGamerF.jpg" alt=""></a> -->
+                      <div class="card-body">
+                        <h4 class="card-title text-center">
+                          <a href="iosdesktop.php">Computador Desktop</a>
+                        </h4>
+                        <p class="card-text text-center">Para você que prioriza uma tela maior, <br> alto desempenho e custo-benefício.</p>
+                      </div>
+                      <div class="card-footer text-center">
+                          <a href="iosdesktop.php" class="btn btn-success">Escolher...</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                  <!--      <a><img class="card-img-top" src="imagens/pcGamerf.jpg" alt=""></a> -->
+                      <div class="card-body">
+                        <h4 class="text-dark text-center">
+                          <a href="iosnotebook.php">Notebook</a>
+                        </h4>
+                        <p class="card-text text-center">Para você que precisa de mobilidade <br>e ter sempre um computador a disposição.</p>
+                      </div>
+                      <div class="card-footer text-center">
+                          <a href="iosnotebook.php" class="btn btn-success">Escolher...</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!--- FIM dos cards com as fotos dos Computadores  --->
+                  </div>
+
+      </section>                    
 
       <?php
         include_once("footer.php");
