@@ -18,19 +18,34 @@
     <?php
       include_once("header.php");
     ?>
-
+<main>
     <!-- Início -- Foto Matrix de fundo no banner e Título "Vamos te ajudar..." que aparece em cima do banner   -->
-    <div class="text-center mx-3 mb-3" style="background-image: url('imagens/matrix1.jpg');background-size:cover;">
-        <div class="container">
-          <div class="row">
-            <div class="mx-auto">
-              <h1 class="display-5 text-light">Vamos te ajudar <br>a encontrar o seu computador Gamer !</h1>
+   <div class="py-4 text-center text-white h-100 align-items-center d-flex"
+          style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/teclado.jpeg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+          <div class="container py-4">
+            <div class="row">
+              <div class="mx-auto col-lg-8 col-md-10">
+                <h3 class="mb-4 display-5"br>Escolha o seu estilo de computador ideal</h3>
+              </div>
             </div>
           </div>
-        </div>
-    <!-- Fim -- Foto Matrix de fundo no banner e Título "Vamos te ajudar..." que aparece em cima do banner   -->    
-    </div>
+</div>
+  <div class="text-center">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <nav>
+          <div class="nav-wrapper"></div>
+        </nav>
+      </div>
 
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-success"><b></b></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
 
     <section id="back" class="banner container">  
 

@@ -20,16 +20,33 @@
     ?>
 
     <!-- Início -- Foto Matrix de fundo no banner e Título "Vamos te ajudar..." que aparece em cima do banner   -->
-    <div class="text-center mx-3 mb-3" style="background-image: url('imagens/matrix1.jpg');background-size:cover;">
-        <div class="container">
-          <div class="row">
-            <div class="mx-auto">
-              <h1 class="display-5 text-light">Vamos te ajudar <br>a encontrar o seu computador Gamer !</h1>
+    <main>
+    <div class="py-4 text-center text-white h-100 align-items-center d-flex"
+          style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/teclado.jpeg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+          <div class="container py-4">
+            <div class="row">
+              <div class="mx-auto col-lg-8 col-md-10">
+                <h1 class="mb-4 display-5"br>Escolha o seu estilo de computador ideal</h1>
+              </div>
             </div>
           </div>
+</div>
+  <div class="text-center">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <nav>
+          <div class="nav-wrapper"></div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-success"><b></b></h1>
         </div>
-    <!-- Fim -- Foto Matrix de fundo no banner e Título "Vamos te ajudar..." que aparece em cima do banner   -->    
+      </div>
     </div>
+  </div>
+    </main>
 
 
     <section id="back" class="banner container mb-4 pb-5">  
@@ -66,13 +83,13 @@
                       <!-- <a href="escritoriodesktop.php"></a>   -->
                       <!-- <img class="card-img-top" src="imagens/nootbokGamerF.jpg" alt=""></a> -->
                        <div class="card-body">
-                         <h4 class="card-title text-center">
+                         <h3 class="card-title text-center">
                            <a href="escritoriodesktop.php">Computador Desktop</a>
-                         </h4>
+                         </h3>
                          <p class="card-text text-center">Para você que prioriza uma tela maior, <br> alto desempenho e custo-benefício.</p>
                        </div>
                        <div class="card-footer text-center">
-                          <a href="escritoriodesktop.php" class="btn btn-success">Escolher...</a>
+                          <a href="escritoriodesktop.php" class="btn btn-success">Escolher</a>
                        </div>
                     </div>
                   </div>
@@ -82,13 +99,13 @@
                       <!-- <a href="escritorionotebook.php"></a> --> 
                  <!--      <a><img class="card-img-top" src="imagens/pcGamerf.jpg" alt=""></a> -->
                       <div class="card-body">
-                        <h4 class="text-dark text-center">
+                        <h3 class="text-dark text-center">
                           <a href="escritorionotebook.php">Notebook</a>
-                        </h4>
+                        </h3>
                         <p class="card-text text-center">Para você que precisa de mobilidade <br>e ter sempre um computador a disposição.</p>
                       </div>
                       <div class="card-footer text-center">
-                          <a href="escritorionotebook.php" class="btn btn-success">Escolher...</a>
+                          <a href="escritorionotebook.php" class="btn btn-success">Escolher</a>
                        </div>
                     </div>
                   </div>
