@@ -6,7 +6,7 @@
 <!--- Início do cabeçalho navbar principal padrão, ficará visível nas páginas que usar o include_once("header.php")  --->
 <header>
 
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-md navbar-dark">
 
             <div class="container">
 

@@ -10,7 +10,11 @@
   <!-- dependências CSS -->
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="css/wireframe.css">
+  <link rel="stylesheet" href="css/testandoResponsivo.css">
+  
 </head>
+
+
 
 <body>
 
@@ -50,9 +54,47 @@
 
 
      <!-------------------- COLUNA 1 ------------>
-    <div class="container">
+
+  <div class="container" id="filtoResponsivo">
+    <div class="row">
+      <div class="col-6">
+
+  <h1>Testando Botão Responsivo Filtro</h1>
+
+  <div class="list-group-item row form-group bg-secondary text-white">
+          <h3>Localização</h3>
+        </div>
+
+        <div class="list-group-item row form-group p-3 bg-light">
+          <label class="mr-sm-4 sr-only" for="inlineFormCustomSelect">Preferência</label>
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>Região</option>
+            <option value="1">Norte</option>
+            <option value="2">Nordeste</option>
+            <option value="3">Centroeste</option>
+            <option value="2">Sudeste</option>
+            <option value="3">Sul</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="col-6">
+
+      <h1> Testando Botão Responsivo Novidades </h1>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <div class="container" >
     <div class="row bg-light">
-            <div class="col">
+            <div class="col"  id="containerFiltro">
             <h1>1 de 3</h1>
             <div class="list-group-item row form-group bg-secondary text-white">
             <h3>Preco</h3>
