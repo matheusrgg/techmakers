@@ -10,7 +10,11 @@
   <!-- dependências CSS -->
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="css/wireframe.css">
+  <link rel="stylesheet" href="css/testandoResponsivo.css">
+  
 </head>
+
+
 
 <body>
 
@@ -47,9 +51,30 @@
 
 
      <!-------------------- COLUNA 1 ------------>
-    <div class="container">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+
+  <h1>Testando Botão Responsivo Filtro</h1>
+      </div>
+
+      <div class="col-6">
+
+      <h1> Testando Botão Responsivo Novidades </h1>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <div class="container" >
     <div class="row bg-light">
-            <div class="col">
+            <div class="col"  id="containerFiltro">
             <h1>1 de 3</h1>
             <div class="list-group-item row form-group bg-secondary text-white">
             <h3>Preco</h3>

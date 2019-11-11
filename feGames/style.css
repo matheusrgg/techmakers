@@ -1,0 +1,28 @@
+header{
+    background-color: black;
+    height: 10vh;
+   }
+   #banner{
+       height: 90vh;;
+   }
+   .nav-link{
+       color:#ffff
+   }
+   #banner .container .row{
+       height: 90vh;
+   }
+   #about{
+       background-color:gray;
+       height: 100vh;
+       color:#ffff
+   }
+   #about .container .row{
+       height: 100vh;
+   }
+   .h1Header{
+       color:#ffff
+   }
+   #back{
+       background:;
+       margin-top: 69px;
+   }

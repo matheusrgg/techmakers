@@ -1,0 +1,10 @@
+
+
+
+@media(min-width:560px) and (max-width:780px){
+    
+    #containerFiltro{
+        display: none;
+    }
+
+}
