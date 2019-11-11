@@ -25,10 +25,10 @@
           <div class="container py-5">
             <div class="row">
               <div class="mx-auto col-lg-8 col-md-10">
-                <p class="lead mb-5">Compre o computador ideal para você!</p>
+                <p class="lead mb-3">Compre o computador ideal para você!</p>
                 <h1 class="mb-4 display-5">TechMakers<br>O seu coputador personalizado</h1>
-                <a class="btn btn-success" href="estilousuario.php" role="button">Quero ajuda para escolher meu computador</a>
-                <a class="btn btn-secondary" href="ecommerce.php" role="button">Quero escolher as peças do meu computador</a>
+                <a class="btn btn-success" href="estilousuario.php" role="button">Ajuda para escolher meu computador</a>
+                <a class="btn btn-secondary" href="ecommerce.php" role="button">Escolher as peças do meu computador</a>
               </div>
             </div>
           </div>
@@ -36,8 +36,8 @@
         </div>
 
         <!--- Início das Ofertas publicadas na tela HOME --->
-        <div>
-          <h1 class="mb-4 display-4 text-center text-success">Ofertas<h1>
+        <div style="margin:30px">
+          <h1 class="mb-5 display-5 text-center text-success padding:10px">Ofertas<h1>
         </div>
 
         <div class="container">

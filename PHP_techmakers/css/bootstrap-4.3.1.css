@@ -67,11 +67,11 @@ h {
   estouro: visível; }
 
 h1, h2, h3, h4, h5, h6 {
-  margem superior: 0;
+  margem superior: 0.75rem;
   margem inferior: 0.75rem; }
 
 p {
-  margem superior: 0;
+  margem superior: 1rem;
   margem inferior: 1rem; }
 
 abbr [title],
