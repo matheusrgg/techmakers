@@ -52,11 +52,28 @@
 
      <!-------------------- COLUNA 1 ------------>
 
-  <div class="container">
+  <div class="container" id="filtoResponsivo">
     <div class="row">
       <div class="col-6">
 
   <h1>Testando Botão Responsivo Filtro</h1>
+
+  <div class="list-group-item row form-group bg-secondary text-white">
+          <h3>Localização</h3>
+        </div>
+
+        <div class="list-group-item row form-group p-3 bg-light">
+          <label class="mr-sm-4 sr-only" for="inlineFormCustomSelect">Preferência</label>
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>Região</option>
+            <option value="1">Norte</option>
+            <option value="2">Nordeste</option>
+            <option value="3">Centroeste</option>
+            <option value="2">Sudeste</option>
+            <option value="3">Sul</option>
+          </select>
+        </div>
+
       </div>
 
       <div class="col-6">
