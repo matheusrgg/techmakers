@@ -40,18 +40,18 @@
           <form>
             <div class="row">
               <div class="col-md-6">
-                <div class="form-group col-md-12"> <input type="text" class="form-control border-success rounded" id="form19" placeholder="Nome"> </div>
+                <div class="form-group col-md-12"> <input type="text" class="form-control border-success rounded" id="" placeholder="Nome"> </div>
               </div>
               <div class="col-md-6">
-                <div class="form-group col-md-12"> <input type="email" class="form-control border-success rounded" id="form20" placeholder="Email"> </div>
+                <div class="form-group col-md-12"> <input type="email" class="form-control border-success rounded" id="" placeholder="Email"> </div>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6">
-                <div class="form-group col-md-12"> <input type="password" class="form-control border-success rounded mt-3" id="form19" placeholder="Digite uma senha"> </div>
+                <div class="form-group col-md-12"> <input type="password" class="form-control border-success rounded mt-3" id="" placeholder="Digite uma senha"> </div>
               </div>
               <div class="col-md-6">
-                <div class="form-group col-md-12"> <input type="password" class="form-control border-success rounded mt-3" id="form20" placeholder="Confirme a senha"> </div>
+                <div class="form-group col-md-12"> <input type="password" class="form-control border-success rounded mt-3" id="" placeholder="Confirme a senha"> </div>
               </div>
             </div>
             <!-- <button type="submit" class="btn btn-success btn-lg w-25 mr-5">Enviar</button>

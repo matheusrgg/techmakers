@@ -20,7 +20,7 @@
     ?>
 
   <main>
-    <!-- Foto da Matrix de fundo após o menu principal -->
+    <!-- Foto de fundo após o menu principal -->
     <div class="py-4 text-center text-white h-100 align-items-center d-flex"
           style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/bannercomputadorprof.jpg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
           <div class="container py-4">
@@ -43,7 +43,7 @@
           <nav>
             <div class="nav-wrapper">
               <div class="col s12 d-inline-flex align-items-center"
-                  style="margin:40px">
+                  style="margin:15px">
                 <a href="estilousuario.php" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/1p.jpg" width="35" height="35"></a>
                 <a href="#!" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/2p.jpg" width="35" height="35"></a>
                 <a href="#!" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/3c.jpg" width="35" height="35"></a>

@@ -22,7 +22,7 @@
      <main>
 
       <!-- Foto da Matrix de fundo após o menu principal -->
-      <div class="text-center mx-3 mb-3" style="background-image: url('imagens/matrix1.jpg');background-size:cover;">
+      <div class="text-center" style="background-image: url('imagens/matrix1.jpg');background-size:cover;">
         <div class="container">
           <div class="row">
             <div class="mx-auto">
@@ -48,7 +48,7 @@
       </div>
 
       <!------ Início do Formulário de CONTATO ------>
-      <div class="py-3 text-center">
+      <div class="py-3 text-center pb-4">
         <div class="container">
           <div class="row">
             <div class="col-md-12 p-4 border rounded border-success">

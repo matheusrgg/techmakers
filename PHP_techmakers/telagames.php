@@ -18,41 +18,26 @@
     <?php
       include_once("header.php");
     ?>
+
 <main>
-    <!-- Início -- Foto Matrix de fundo no banner e Título "Vamos te ajudar..." que aparece em cima do banner   -->
-   <div class="py-4 text-center text-white h-100 align-items-center d-flex"
-          style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/teclado.jpeg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
-          <div class="container py-4">
+
+<div class="py-4 text-center text-white h-100 align-items-center d-flex"
+          style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/bannercomputadorprof.jpg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+          <div class="container">
             <div class="row">
               <div class="mx-auto col-lg-8 col-md-10">
-                <h3 class="mb-4 display-5"br>Escolha o seu estilo de computador ideal</h3>
+                <h3 class="mb-4 display-5">Vamos te ajudar <br>a encontrar o seu computador Gamer !</h3>
               </div>
             </div>
           </div>
-</div>
-  <div class="text-center">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <nav>
-          <div class="nav-wrapper"></div>
-        </nav>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="text-success"><b></b></h1>
-        </div>
-      </div>
     </div>
-  </div>
-</main>
 
     <section id="back" class="banner container">  
 
                   <!-- INÍCIO -- Numeração em sequência das páginas 1 2 3 ...   -->
                   <div class="row justify-content-center">
                       <nav>
-                        <div class="nav-wrapper pb-1">
+                        <div class="nav-wrapper pb-1 pt-3">
                             <div class="col s12 d-inline-flex align-items-center">
                                 <a href="estilousuario.php" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/1p.jpg" width="35" height="35"></a>
                                 <a class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/2p.jpg" width="35" height="35"></a>
@@ -104,6 +89,8 @@
             </div>
 
      </section>
+
+ </main>
 
       <?php
         include_once("footer.php");
