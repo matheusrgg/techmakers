@@ -1,32 +1,24 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css">
-  <title> TechMakers </title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://static.pingendo.com/bootstrap/bootstrap-4.3.1.css">
+    <link rel="stylesheet" href="css/wireframe.css">
+    <link rel="icon" href="imagens/icone_pagina1.jpg">
+    <title> Acesso </title>
 </head>
 
 <body>
-  <!--- Início do navbar principal --->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar6">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar6">
-        <!--- Início do Logotipo --->
-        <a class="navbar-brand text-primary d-none d-md-block" href="painel_adm/PainelAdm.php">
-          <img src="imagens/TechMakers_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
-          <b class="text-success"> TechMakers</b>
-          <!--- Fim do Logotipo --->
-        </a>
-      </div>
-    </div>
-    <!--- Fim do navbar principal--->
-  </nav>
+
+    <?php
+        include_once("header.php");
+    ?>
+
+
   <div>
     <h1>
     </h1>
@@ -34,7 +26,7 @@
   <div style="background-image: url(); background-size: cover;" class="py-5 text-center">
     <div class="container">
       <div class="row">
-        <div class="mx-auto col-md-6 col-10 bg-white p-5 border border-success rounded-circle">
+        <div class="mx-auto col-md-6 col-10 bg-white p-5 border border-success">
           <h1 class="mb-4 text-success">Login do Usuário</h1>
           <form>
             <div class="form-group"> <input type="email" class="form-control border-success" placeholder="digite o seu email" id="form9"> </div>
@@ -62,5 +54,11 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" style="">
   </script>
+
+      <?php
+        include_once("footer.php");
+      ?>
+  
   </body>
+
 </html>
