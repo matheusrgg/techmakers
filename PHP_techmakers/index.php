@@ -28,6 +28,7 @@
                 <p class="lead mb-3">Compre o computador ideal para você!</p>
                 <h1 class="mb-4 display-5">TechMakers<br>O seu coputador personalizado</h1>
                 <a class="btn btn-success" href="estilousuario.php" role="button">Ajuda para escolher meu computador</a>
+                 <div class="espaco my-3"></div>
                 <a class="btn btn-secondary" href="ecommerce.php" role="button">Escolher as peças do meu computador</a>
               </div>
             </div>
