@@ -18,11 +18,63 @@
 
 <body>
 
-    <?php
-      include_once("header.php");
-    ?>
+    
+    <! ----- Comeco do header --- >
 
- <!-- Foto da Matrix de fundo após o menu principal -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-light novembroMenu">
+
+            <div class="container">
+
+                <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar6">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar6">
+
+                    <!--- Início do Logotipo --->
+                    <a class="navbar-brand text-primary d-none d-md-block" href="index.php">
+                    <img src="imagens/TechMakers_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <b class="text-success"> TechMakers</b>
+                    <!--- Fim do Logotipo --->
+                    </a>
+
+                    <!--- Início das opções do Menu Principal --->
+                    <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"> <a class="nav-link text-success" href="index.php">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-success" href="computadores.php">Computadores</a> </li>
+              <!--  <li class="nav-item"> <a class="nav-link text-success" href="#">Jogos</a> </li>  -->
+                    <li class="nav-item"> <a class="nav-link text-success" href="acessorios.php">Acessórios</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-success" href="contato.php">Contato</a> </li>
+                    <!--- Fim das opções do Menu Principal da Home --->
+                    </ul>
+
+                    <!--- Início do Carrinho de Compras na barra do menu Principal --->
+                    <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link text-success" href="#">Carrinho</a> </li>
+                    <!--- Fim do Carrinho de Compras na barra do menu Principal --->
+                    </ul>
+
+                    <!--- Início do Entrar/Cadastrar do usuário na barra do menu Principal --->
+                    <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link text-success" href="acesso.php">Entrar</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-success" href="novo_usuario.php">Cadastrar</a> </li>
+                    <!--- Fim do Entrar/Cadastrar do usuário na barra do menu Principal --->
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+ <!--- Fim do cabeçalho navbar principal padrão --->
+</header>
+    <! ----- FINAL DO HEADER --- >
+
+ <!-- Foto da Matrix de fundo após o menu principal
  <main>
  <div class="py-4 text-center text-white h-100 align-items-center d-flex"
           style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/pecas-computador.jpg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
@@ -50,10 +102,16 @@
     </div>
   </div>
   </main>
-  <main>
+  <main> -->
+  
+
+  <div>
+    <img src="imagens/novembroMidia.jpg" class="novembroMidia" >
+
+  </div>
 
 
-     <!-------------------- COLUNA 1 ------------>
+     <!-------------------- Botoes Responsivosss  ------------>
 
   <div class="container" id="filtoResponsivo">
     <div class="row">
@@ -62,18 +120,18 @@
   <h1>Testando Botão Responsivo Filtro</h1>
 
   <div class="list-group-item row form-group bg-secondary text-white">
-          <h3>Localização</h3>
+          <h3>ORDENADOR </h3>
         </div>
 
         <div class="list-group-item row form-group p-3 bg-light">
           <label class="mr-sm-4 sr-only" for="inlineFormCustomSelect">Preferência</label>
           <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-            <option selected>Região</option>
-            <option value="1">Norte</option>
-            <option value="2">Nordeste</option>
-            <option value="3">Centroeste</option>
-            <option value="2">Sudeste</option>
-            <option value="3">Sul</option>
+            <option selected>Menor Preços</option>
+            <option value="1">Menor Preços</option>
+            <option value="2">Menor Preços</option>
+            <option value="3">Menor Preços</option>
+            <option value="2">Menor Preços</option>
+            <option value="3">Menor Preços</option>
           </select>
         </div>
 
@@ -89,14 +147,13 @@
   </div>
 
 
-
-
+<!-------------------- Capa 01  ------------> 
 
   <div class="container" >
     <div class="row bg-light">
             <div class="col"  id="containerFiltro">
             <h1>1 de 3</h1>
-            <div class="list-group-item row form-group bg-secondary text-white">
+            <div class="list-group-item row form-group bg-secondary text-white divCAIXA">
             <h3>Preco</h3>
             </div>
 
@@ -120,7 +177,7 @@
                
                 </div>
 
-                <div class="list-group-item row form-group bg-secondary text-white">
+                <div class="list-group-item row form-group bg-secondary text-white divCAIXA">
             <h3>Hardware</h3>
             </div>
 
@@ -139,7 +196,7 @@
                 </div>
                
                 </div>
-                <div class="list-group-item row form-group bg-secondary text-white">
+                <div class="list-group-item row form-group bg-secondary text-white divCAIXA">
             <h3>Acessorios</h3>
             </div>
 
@@ -188,9 +245,15 @@
             <h1>2 de 3</h1>
                    <div class="col">
                    <div class="card h-100">
-                      <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop"></a>
+                      <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop">
+                      <div class="card-img-overlay">
+                        <img src="imagens/promo.png" class="card-img-top w-3"  alt="desconto" id="desconto">
+
+                      </div>
+                    
+                    </a>
                       <div class="card-body">
-                        <h4 class="card-title text-center">
+                        <h4 class="card-title text-center"> 
                           <a href="#">Fone Gamer Huck</a>
                         </h4>
                         <h5 class="text-center text-success">R$ 220,00</h5>
@@ -201,8 +264,39 @@
                       </div>
                   </div>
                 </div>    
+
+                <div class="col">
+                   <div class="card h-100">
+                      <a href="#"><img class="card-img-top" src="imagens/ssd01.jpg" alt="Imagem do computador desktop">
+                      <div class="card-img-overlay">
+                        <img src="imagens/promo.png" class="card-img-top w-3"  alt="desconto" id="desconto">
+
+                      </div>
+                    
+                    </a>
+                      <div class="card-body">
+                        <h4 class="card-title text-center"> 
+                          <a href="#">Fone Gamer Huck</a>
+                        </h4>
+                        <h5 class="text-center text-success">R$ 220,00</h5>
+                        <p class="card-text">Lorem ipsum amet blandit quis posuere proin neque sapien nibh, maecenas dui leo feugiat aenean nullam fusce orci adipiscing mauris, facilisis ligula semper nunc facilisis maecenas bibendum non. praesent sociosqu dui porta dictumst id consequat et.</p>
+                      </div>
+                      <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                        <a href="#" class="btn btn-success">Comprar</a>
+                      </div>
+                  </div>
+                </div>  
+                <h1>2 de 3</h1>
+
+
+
+
              </div>
 
+             
+
+
+             
 
 
             <!-------------------- COLUNA 3 ------------>
@@ -225,10 +319,36 @@
                         <a href="#" class="btn btn-success">Comprar</a>
                       </div>
                   </div>
-                </div>    
+                </div> 
+
+                <div class="col">
+                   <div class="card h-100">
+                   <a href="#"><img class="card-img-top" src="imagens/ryzen.jpg" alt="Imagem do computador desktop"></a>
+                      <div class="card-body">
+                        <h4 class="card-title text-center">
+                          <a href="#">Fone Gamer Huck</a>
+                        </h4>
+                        <h5 class="text-center text-success">R$ 220,00</h5>
+                        <p class="card-text">Lorem ipsum amet blandit quis posuere proin neque sapien nibh, maecenas dui leo feugiat aenean nullam fusce orci adipiscing mauris, facilisis ligula semper nunc facilisis maecenas bibendum non. praesent sociosqu dui porta dictumst id consequat et.</p>
+                      </div>
+                      <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                        <a href="#" class="btn btn-success">Comprar</a>
+                      </div>
+                  </div>
+                </div> 
+                
+                <h1>2 de 3</h1>
              </div>
+
             
             </div>
+
+
+            <h1>2 de 3</h1>
+
+
+
+
             </div>
             
     

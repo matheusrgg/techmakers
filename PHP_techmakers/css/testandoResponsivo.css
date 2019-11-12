@@ -1,9 +1,9 @@
 
 
 
-@media(min-width:560px) and (max-width:780px){
+@media(min-width:700px) {
     
-    #containerFiltro{
+    #filtoResponsivo{
         display: none;
     }
 
@@ -12,9 +12,34 @@
       
 @media(max-width: 700px){
 
-    #filtoResponsivo{
+    #containerFiltro{
         display: none;
     }
     
 
 }        
+
+
+
+.novembroMidia{
+    width:100%;
+}
+
+
+
+.novembroMenu{ 
+    background: black;
+    height: 80px;
+}
+
+.divCAIXA{
+    background:#555555!important;
+}
+
+#desconto{
+    position: absolute;
+    top: 1px;
+    width: 110px;
+    height: 100px;
+    right: 0px;
+}
