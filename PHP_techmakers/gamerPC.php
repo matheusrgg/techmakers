@@ -51,7 +51,7 @@
   <div class="text-center">
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <nav>
+        <!-- <nav>
           <div class="nav-wrapper">
             <div class="col s12 d-inline-flex align-items-center">
               <a href="estilousuario.php" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/1p.jpg" width="35" height="35"></a>
@@ -60,7 +60,7 @@
               <a href="#!" class="breadcrumb p-0 m-0"><img class="d-block" src="imagens/4p.jpg" width="35" height="35"></a>
             </div>
           </div>
-        </nav>
+        </nav> -->
       </div>
       <!-- <div class="text-center">
     <div class="container-fluid mb-3">
