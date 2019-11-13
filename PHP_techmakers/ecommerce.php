@@ -117,7 +117,7 @@
     <div class="row">
       <div class="col-6">
 
-  <h1>Testando Botão Responsivo Filtro</h1>
+  <h1></h1>
 
   <div class="list-group-item row form-group bg-secondary text-white">
           <h3>ORDENADOR </h3>
@@ -139,7 +139,7 @@
 
       <div class="col-6">
 
-      <h1> Testando Botão Responsivo Novidades </h1>
+      <h1> </h1>
       </div>
     </div>
 
@@ -152,7 +152,7 @@
   <div class="container" >
     <div class="row bg-light">
             <div class="col"  id="containerFiltro">
-            <h1>1 de 3</h1>
+            <h1></h1>
             <div class="list-group-item row form-group bg-secondary text-white divCAIXA">
             <h3>Preco</h3>
             </div>
@@ -242,7 +242,7 @@
 
 
             <div class="col">
-            <h1>2 de 3</h1>
+            <h1></h1>
                    <div class="col">
                    <div class="card h-100">
                       <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop">
@@ -286,7 +286,7 @@
                       </div>
                   </div>
                 </div>  
-                <h1>2 de 3</h1>
+                <h1></h1>
 
 
 
@@ -302,7 +302,7 @@
             <!-------------------- COLUNA 3 ------------>
 
             <div class="col">
-            <h1>3 de 3</h1>
+            <h1></h1>
             
             
                    <div class="col">
@@ -337,14 +337,14 @@
                   </div>
                 </div> 
                 
-                <h1>2 de 3</h1>
+                <h1></h1>
              </div>
 
             
             </div>
 
 
-            <h1>2 de 3</h1>
+            <h1></h1>
 
 
 
