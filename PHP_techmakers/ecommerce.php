@@ -115,7 +115,7 @@
 
   <div class="container" id="filtoResponsivo">
     <div class="row">
-      <div class="col-6">
+      <div class=" container">
 
   <h1></h1>
 
@@ -137,10 +137,7 @@
 
       </div>
 
-      <div class="col-6">
-
-      <h1> </h1>
-      </div>
+      
     </div>
 
 
