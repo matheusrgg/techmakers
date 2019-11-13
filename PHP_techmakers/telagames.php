@@ -34,7 +34,7 @@
 
     <section id="back" class="banner container">  
 
-                  <!-- INÍCIO -- Numeração em sequência das páginas 1 2 3 ...   -->
+                  <!-- INÍCIO - Numeração em sequência das páginas 1 2 3 ...   -->
                   <div class="row justify-content-center">
                       <nav>
                         <div class="nav-wrapper pb-1 pt-3">
@@ -46,28 +46,28 @@
                             </div>
                         </div> 
                       </nav>
-                  <!--  FIM  -- Numeração em sequência das páginas 1 2 3 ...    -->                         
+                  <!--  FIM  - Numeração em sequência das páginas 1 2 3 ...    -->                         
                   </div> 
 
 
-                  <!-- INÍCIO -- Linha onde aparece a pergunta "Qual a sua preferência ?"  -->
+                  <!-- INÍCIO - Linha onde aparece a pergunta "Qual a sua preferência ?"  -->
                   <div class="row text-center">
                     <div class="col-md-12">
                       <h2 class="text-success">Qual a sua preferência ?</h2>
                     </div>
-                  <!--   FIM  -- Linha onde aparece a pergunta "Qual a sua preferência ?"  -->
+                  <!--   FIM  - Linha onde aparece a pergunta "Qual a sua preferência ?"  -->
                   </div>
 
 
-            <!--- Início dos cards com as fotos dos Computadores  --->
+            <!--- Início dos cards com as fotos dos Computadores  -->
             <div class="d-flex justify-content-center">
 
                   <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                      <a href="jogos.php"><img class="card-img-top" src="imagens/nootbokGamerF.jpg" alt=""></a>
+                      <a href="jogosNOT.php"><img class="card-img-top" src="imagens/nootbokGamerF.jpg" alt=""></a>
                       <div class="card-body">
                         <h4 class="card-title text-center">
-                          <a href="jogos.php">Notebooks</a>
+                          <a href="jogosNOT.php">Notebooks</a>
                         </h4>
                         <p class="card-text text-center">Então você quer mobilidade.</p>
                       </div>
@@ -76,16 +76,16 @@
 
                   <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                      <a href="jogos.php"><img class="card-img-top" src="imagens/pcGamerf.jpg" alt=""></a>
+                      <a href="jogosPC.php"><img class="card-img-top" src="imagens/pcGamerf.jpg" alt=""></a>
                       <div class="card-body">
                         <h4 class="text-dark text-center">
-                          <a href="jogos.php">Desktops</a>
+                          <a href="jogosPC.php">Desktops</a>
                         </h4>
                         <p class="card-text text-center">Então você quer algo mais parrudo.</p>
                       </div>
                     </div>
                   </div>
-            <!--- FIM dos cards com as fotos dos Computadores  --->
+            <!--- FIM dos cards com as fotos dos Computadores  -->
             </div>
 
      </section>
