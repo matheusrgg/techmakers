@@ -16,7 +16,7 @@
 
 
 
-<body>
+<body style="background-image: url(imagens/bg-body.jpg);">
 
 
   <! ----- Comeco do header --->
