@@ -17,6 +17,15 @@
     right:0px;
     width:85px;
 }
+    @font-face{
+    font-family: helvetica-black-condensed-oblique;
+    src: url(Fonts/helvetica-black-condensed-oblique.otf);
+}
+
+    #apresentacao{
+        font-family:helvetica-black-condensed-oblique;
+    }
+
 
 </style>
     
@@ -31,7 +40,7 @@
                 </a>
                 <div class="card-body">
                   <h4 class="card-title text-center">
-                    <a href="#" class="text-secondary">Fone Gamer Huck</a>
+                    <a href="#" class="text-secondary" id="apresentacao">Fone Gamer Huck</a>
                   </h4>
 
                   <h5 class="text-center text-primary">4x R$44,00</h5>
