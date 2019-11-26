@@ -106,7 +106,7 @@
   <main> -->
 
 
-      <div>
+      <div class="container" style="padding: 0px;">
         <img src="imagens/novembroMidia.jpg" class="novembroMidia">
 
       </div>
@@ -150,7 +150,7 @@
         <div class="row bg-light">
 
 
-          <div class="col-lg-3" id="containerFiltro">
+          <div class="col-lg-2" id="containerFiltro">
             <h1></h1>
             <div class="list-group-item row form-group bg-secondary text-white divCAIXA">
               <h3>Preco</h3>
@@ -240,7 +240,7 @@
 
 
 
-          <div class="d-flex flex-row flex-wrap col-lg-9" ><!----- começo da col ---->
+          <div class="d-flex flex-row flex-wrap col-lg-10" ><!----- começo da col ---->
 
           <div class="col-lg-4 col-md-4 col-4"><!--- começo do card ---->
           <div class="card h-100 mb-3">  
