@@ -1,27 +1,12 @@
-<!DOCTYPE html>
-<html>
+@extends('layouts.templatetechmakers')
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Configuração da aba da página -->
-  <link rel="icon" href="imagens/icone_pagina1.jpg">
-  <title> Estilo do Usuário </title>
-  <!-- dependências CSS -->
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="css/wireframe.css">
-</head>
+@section('titulo')
+sla
+@endsection
 
-<body>
+@section('conteudo')
 
-    <?php
-      include_once("header.php");
-    ?>
-
-  <main>
-
-  <!-- Foto da Matrix de fundo após o menu principal -->
-  <div class="py-4 text-center text-white h-100 align-items-center d-flex"
+<div class="py-4 text-center text-white h-100 align-items-center d-flex"
           style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/teclado.jpeg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
           <div class="container py-4">
             <div class="row">
@@ -47,10 +32,10 @@
     </div>
   </div>
 
-    <!--- Início do container para os ESTILOS de escolha para os usuários -->
+    <!-- Início do container para os ESTILOS de escolha para os usuários -->
     <div class="container">
 
-        <!--- Início da LINHA do container -->
+        <!-- Início da LINHA do container -->
         <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4">
@@ -95,12 +80,4 @@
       <!--- Fim do container para os ESTILOS de escolha para os usuários -->
       </div>
 
-</main>
-
-<?php
-    include_once("footer.php");
-?>
-
-</body>
-
-</html>
+@endsection

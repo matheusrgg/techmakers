@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="/css/testandoResponsivo.css">
     <link rel="stylesheet" href="/css/wireframe.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <title>yield('titulo')</title>
 </head>
 <body>
 
-<!--- Início do cabeçalho navbar principal padrão, ficará visível nas páginas que usar o include_once("header.php")  --->
+<!--- Início do cabeçalho navbar principal padrão, ficará visível nas páginas que usar o include_once("header.php")  -->
 <header>
 
         <nav class="navbar navbar-expand-md navbar-light">
@@ -26,34 +26,34 @@
 
                 <div class="collapse navbar-collapse" id="navbar6">
 
-                    <!--- Início do Logotipo --->
+                    <!--- Início do Logotipo -->
                     <a class="navbar-brand text-primary d-none d-md-block" href="index.php">
                     <img src="imagens/TechMakers_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
                     <b class="text-success"> TechMakers</b>
-                    <!--- Fim do Logotipo --->
+                    <!--- Fim do Logotipo -->
                     </a>
 
-                    <!--- Início das opções do Menu Principal --->
+                    <!--- Início das opções do Menu Principal -->
                     <ul class="navbar-nav mx-auto">
                     <li class="nav-item"> <a class="nav-link text-success" href="index.php">Home</a> </li>
                     <li class="nav-item"> <a class="nav-link text-success" href="computadores.php">Computadores</a> </li>
               <!--  <li class="nav-item"> <a class="nav-link text-success" href="#">Jogos</a> </li>  -->
                     <li class="nav-item"> <a class="nav-link text-success" href="acessorios.php">Acessórios</a> </li>
                     <li class="nav-item"> <a class="nav-link text-success" href="contato.php">Contato</a> </li>
-                    <!--- Fim das opções do Menu Principal da Home --->
+                    <!--- Fim das opções do Menu Principal da Home -->
                     </ul>
 
-                    <!--- Início do Carrinho de Compras na barra do menu Principal --->
+                    <!--- Início do Carrinho de Compras na barra do menu Principal -->
                     <ul class="navbar-nav">
                     <li class="nav-item"> <a class="nav-link text-success" href="#">Carrinho</a> </li>
-                    <!--- Fim do Carrinho de Compras na barra do menu Principal --->
+                    <!--- Fim do Carrinho de Compras na barra do menu Principal -->
                     </ul>
 
-                    <!--- Início do Entrar/Cadastrar do usuário na barra do menu Principal --->
+                    <!--- Início do Entrar/Cadastrar do usuário na barra do menu Principal -->
                     <ul class="navbar-nav">
                     <li class="nav-item"> <a class="nav-link text-success" href="acesso.php">Entrar</a> </li>
                     <li class="nav-item"> <a class="nav-link text-success" href="novo_usuario.php">Cadastrar</a> </li>
-                    <!--- Fim do Entrar/Cadastrar do usuário na barra do menu Principal --->
+                    <!--- Fim do Entrar/Cadastrar do usuário na barra do menu Principal -->
                     </ul>
 
                 </div>
@@ -62,22 +62,22 @@
 
         </nav>
 
- <!--- Fim do cabeçalho navbar principal padrão --->
+ <!--- Fim do cabeçalho navbar principal padrão -->
 </header>
 
 <main class="container">
-<!-- conteúdo do site --->
+<!-- conteúdo do site -->
     @yield('conteudo')
 </main>
 
-<!--- Início do rodapé padrão, ficará visível nas páginas que usar o include_once("footer.php")  --->
+<!-- Início do rodapé padrão, ficará visível nas páginas que usar o include_once("footer.php")  -->
 <footer class="py-3 bg-dark">
 
      <div class="container">
         <a href="#"><p class="m-0 text-center text-white">Time TechMakers&copy; 2019</p></a>
      </div>
 
-    <!--- Estes scripts são necessários para executar algumas funcionalidades do bootstrep --->
+    <!-- Estes scripts são necessários para executar algumas funcionalidades do bootstrep -->
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -89,7 +89,7 @@
     </script>
               
 </footer>
-<!--- Fim do rodapé padrão  --->
+<!--- Fim do rodapé padrão  -->
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
