@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/estiloUsuario', 'TriagemController@viewTriagem');
+Route::get('/home', 'siteController@viewHome');
