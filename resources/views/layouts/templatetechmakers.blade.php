@@ -65,9 +65,9 @@
  <!--- Fim do cabeçalho navbar principal padrão --->
 </header>
 
-<main>
+<main class="container">
 <!-- conteúdo do site --->
-
+    @yield('conteudo')
 </main>
 
 <!--- Início do rodapé padrão, ficará visível nas páginas que usar o include_once("footer.php")  --->
