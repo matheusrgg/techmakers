@@ -9,7 +9,10 @@ class TriagemController extends Controller
     public function viewTriagem(request $request){
         return view('estiloUsuario');
     }
-    public function viewTriagemG(request $request){
+    public function viewTriagemGamer(request $request){
         return view('estiloUsuarioGamer');
+    }
+    public function viewTriagemUsoPessoal(request $requiest){
+        return view('estiloUsuarioUsoPessoal');
     }
 }

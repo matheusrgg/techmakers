@@ -52,10 +52,10 @@ TechMakers
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                  <a href="#"><img class="card-img-top" src="imagens/usopessoal.jpg" alt="Imagem do computador desktop"></a>
+                  <a href="#"><img class="card-img-top" href="/estiloUsuario/UsoPessoal" src="imagens/usopessoal.jpg" alt="Imagem do computador desktop"></a>
                   <div class="card-body">
                     <h1 class="card-title text-center">
-                      <a href="motivoPessoal.php">Uso Pessoal</a>
+                      <a href="/estiloUsuario/UsoPessoal">Uso Pessoal</a>
                     </h1>
                     <p class="card-text">Navegar na Internet, utilização de programas completos. Pacote completo do Office. Maior mobilidade.&nbsp;</p>
                   </div>
@@ -64,7 +64,7 @@ TechMakers
             
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                  <a href="motivoprofissional.php"><img class="card-img-top" src="imagens/usoprofissional.jpg" alt="Imagem do computador desktop"></a>
+                  <a href="motivoprofissional.php"><img class="card-img-top" src="/imagens/usoprofissional.jpg" alt="Imagem do computador desktop"></a>
                   <div class="card-body">
                     <h1 class="card-title text-center">
                       <a href="motivoprofissional.php">Uso Profissional</a>
