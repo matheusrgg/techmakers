@@ -1,7 +1,7 @@
 @extends('layouts.templatetechmakers')
 
 @section('titulo')
-sla
+TechMakers
 @endsection
 
 @section('conteudo')
@@ -40,10 +40,10 @@ sla
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                  <a href="TelaGames.php"><img class="card-img-top" src="imagens/gamer.jpg" alt="Imagem do computador desktop"></a>
+                  <a href="/estiloUsuario/PCgamer"><img class="card-img-top" src="imagens/gamer.jpg" alt="Imagem do computador desktop"></a>
                   <div class="card-body">
                     <h1 class="card-title text-center">
-                      <a href="TelaGames.php">Gamer</a>
+                      <a href="/estiloUsuario/PCgamer">Gamer</a>
                     </h1>
                     <p class="card-text">Jogos que demanda velocidade do computador, alta qualidade de placas de vídeo e internet. Som de qualidade superior e acessórios específicos.</p>
                   </div>

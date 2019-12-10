@@ -12,7 +12,7 @@
               <div class="mx-auto col-lg-8 col-md-10">
                 <p class="lead mb-3">Compre o computador ideal para você!</p>
                 <h1 class="mb-4 display-5">TechMakers<br>O seu computador personalizado</h1>
-                <a class="btn btn-success" href="estilousuario.php" role="button">Ajuda para escolher meu computador</a>
+                <a class="btn btn-success" href="/estiloUsuario" role="button">Ajuda para escolher meu computador</a>
                  <div class="espaco my-3"></div>
                 <a class="btn btn-primary" href="ecommerce.php" role="button">Escolher as peças do meu computador</a>
               </div>
