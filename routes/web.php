@@ -18,7 +18,8 @@ Route::get('/', function () {
                         //Inicio das Rotas da Triagem//
 Route::get('/estiloUsuario', 'TriagemController@viewTriagem');
 Route::get('/estiloUsuario/PCgamer', 'TriagemController@viewTriagemGamer');
-Route::get('/estiloUsuario/UsoPessoal', 'TriagemController@viewTriagemUsoPessoal');
+Route::get('/estiloUsuario/UsoPessoal', 'TriagemController@viewTriagemUsoPessoal'); 
+Route::get('/estiloUsuario/UsoProfissional', 'TriagemController@viewUsoProfissional');
                         //Fim das Rotas da Triagem//
 
 Route::get('/home', 'siteController@viewHome');

@@ -64,10 +64,10 @@ TechMakers
             
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
-                  <a href="motivoprofissional.php"><img class="card-img-top" src="/imagens/usoprofissional.jpg" alt="Imagem do computador desktop"></a>
+                  <a href="/estiloUsuario/UsoProfissional"><img class="card-img-top" src="/imagens/usoprofissional.jpg" alt="Imagem do computador desktop"></a>
                   <div class="card-body">
                     <h1 class="card-title text-center">
-                      <a href="motivoprofissional.php">Uso Profissional</a>
+                      <a href="/estiloUsuario/UsoProfissional">Uso Profissional</a>
                     </h1>
                     <p class="card-text">Maior produtividade com programas de edição de imagem e vídeo, maior capacidade de memória.</p>
                   </div>

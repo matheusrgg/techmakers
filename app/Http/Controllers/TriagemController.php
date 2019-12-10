@@ -15,4 +15,7 @@ class TriagemController extends Controller
     public function viewTriagemUsoPessoal(request $requiest){
         return view('estiloUsuarioUsoPessoal');
     }
+    public function viewUsoProfissional(request $request){
+        return view('estiloUsuarioUsoProfissional');
+    }
 }
