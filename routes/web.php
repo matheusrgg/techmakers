@@ -23,3 +23,8 @@ Route::get('/estiloUsuario/UsoProfissional', 'TriagemController@viewUsoProfissio
                         //Fim das Rotas da Triagem//
 
 Route::get('/home', 'siteController@viewHome');
+
+
+                        //Inicio das Rotas do Painel Administrativo//
+Route::get('paineladm', "PainelAdmController@viewPainelAdm");                        
+                        //Fim das Rotas do Painel Administrativo//                        
