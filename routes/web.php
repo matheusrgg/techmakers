@@ -27,4 +27,7 @@ Route::get('/home', 'siteController@viewHome');
 
                         //Inicio das Rotas do Painel Administrativo//
 Route::get('paineladm', "PainelAdmController@viewPainelAdm");                        
-                        //Fim das Rotas do Painel Administrativo//                        
+                        //Fim das Rotas do Painel Administrativo//                       
+
+
+Route::get('/ecommerce', "ecommerceController@viewEcommerce");
