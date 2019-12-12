@@ -45,15 +45,11 @@
 
                   <h5 class="text-center text-primary">4x R$44,00</h5>
                   <h5 class="text-center text-success">R$ 220,00</h5>
-
-
-                  <p class="card-text">Lorem ipsum amet blandit quis posuere proin neque sapien nibh, maecenas dui leo
-                    feugiat aenean nullam fusce orci adipiscing mauris, facilisis ligula semper nunc facilisis maecenas
-                    bibendum non. praesent sociosqu dui porta dictumst id consequat et.</p>
+                  
                 </div>
                 <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
                     <a href="#" class="btn btn-secondary"><span class="iconify" data-icon="ant-design:plus-outline" data-inline="false"></span>Detalhes</a>
-                  <a href="#" class="btn btn-success"><span class="iconify" data-icon="emojione-monotone:shopping-cart" data-inline="false"></span>Comprar</a>
+                  <a href="#" class="btn btn-success" style="margin-bottom: 10px;"><span class="iconify" data-icon="emojione-monotone:shopping-cart" data-inline="false"></span>Comprar</a>
                 </div>
            </div>     
           </div><!----- final do card ---->
