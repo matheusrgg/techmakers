@@ -4,9 +4,9 @@
 TechMakers
 @endsection
 
-@section('bg')
+<!-- @section('bg')
 style="background-image: url(imagens/bg-body.jpg)"
-@endsection
+@endsection -->
 
 @section('conteudo')
 
