@@ -28,6 +28,10 @@ style="background-image: url(imagens/bg-body.jpg)"
     font-family: helvetica-black-condensed-oblique;
   }
 </style>
+
+
+
+
 <! ----- FINAL DO HEADER --->
 
   <!-- Foto da Matrix de fundo após o menu principal --->
@@ -73,10 +77,13 @@ style="background-image: url(imagens/bg-body.jpg)"
   </div>
 
 
-  <!-------------------- Capa 01  ------------>
-  <div class="container">
-    <div class="row bg-light">
+  
+  <div class="container"><!-- container ecommerce -->
+    <div class="row bg-light"><!-- row ecommerce -->
 
+
+
+      <!---- Filtros Preco , Hardware e Acessorios -->
 
       <div class="col-lg-2" id="containerFiltro">
         <h1></h1>
@@ -169,155 +176,43 @@ style="background-image: url(imagens/bg-body.jpg)"
 
 
       <div class="d-flex flex-wrap col-lg-10"><!----- começo da col ---->
+
+        
+        <div class="col-lg-4 col-md-5 col-12"><!--- começo do card ---->
+          
+
+          <div class="card h-90" style="width: 18rem; ">
+            <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop">
+              <div class="card-img-overlay">
+                <img src="imagens/promo.png" class="card-img-top w-3" alt="desconto" id="desconto">
+
+              </div>
+
+            </a>
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                <a href="#" class="text-secondary" id="apresentacao">Fone Gamer Huck</a>
+              </h4>
+
+              <h5 class="text-center text-primary">4x R$44,00</h5>
+              <h5 class="text-center text-success">R$ 220,00</h5>
+
+            </div>
+            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+              <a href="#" class="btn btn-secondary"><span class="iconify" data-icon="ant-design:plus-outline"
+                  data-inline="false"></span>Detalhes</a>
+              <a href="#" class="btn btn-success" style="margin-bottom: 10px;"><span class="iconify"
+                  data-icon="emojione-monotone:shopping-cart" data-inline="false"></span>Comprar</a>
+            </div>
+          </div>
+        </div><!----- final do card ---->
         
 
-        <div class="col-lg-4 col-md-5 col-12"><!--- começo do card ---->
-          
+      </div> <!----- final da col ---->
+  
+    </div><!-- final row ecommerce -->
 
-          <div class="card h-90" style="width: 18rem; ">
-            <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop">
-              <div class="card-img-overlay">
-                <img src="imagens/promo.png" class="card-img-top w-3" alt="desconto" id="desconto">
-
-              </div>
-
-            </a>
-            <div class="card-body">
-              <h4 class="card-title text-center">
-                <a href="#" class="text-secondary" id="apresentacao">Fone Gamer Huck</a>
-              </h4>
-
-              <h5 class="text-center text-primary">4x R$44,00</h5>
-              <h5 class="text-center text-success">R$ 220,00</h5>
-
-            </div>
-            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-              <a href="#" class="btn btn-secondary"><span class="iconify" data-icon="ant-design:plus-outline"
-                  data-inline="false"></span>Detalhes</a>
-              <a href="#" class="btn btn-success" style="margin-bottom: 10px;"><span class="iconify"
-                  data-icon="emojione-monotone:shopping-cart" data-inline="false"></span>Comprar</a>
-            </div>
-          </div>
-        </div><!----- final do card ---->
-        
-
-        <div class="col-lg-4 col-md-5 col-12"><!--- começo do card ---->
-          
-
-          <div class="card h-90" style="width: 18rem; ">
-            <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop">
-              <div class="card-img-overlay">
-                <img src="imagens/promo.png" class="card-img-top w-3" alt="desconto" id="desconto">
-
-              </div>
-
-            </a>
-            <div class="card-body">
-              <h4 class="card-title text-center">
-                <a href="#" class="text-secondary" id="apresentacao">Fone Gamer Huck</a>
-              </h4>
-
-              <h5 class="text-center text-primary">4x R$44,00</h5>
-              <h5 class="text-center text-success">R$ 220,00</h5>
-
-            </div>
-            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-              <a href="#" class="btn btn-secondary"><span class="iconify" data-icon="ant-design:plus-outline"
-                  data-inline="false"></span>Detalhes</a>
-              <a href="#" class="btn btn-success" style="margin-bottom: 10px;"><span class="iconify"
-                  data-icon="emojione-monotone:shopping-cart" data-inline="false"></span>Comprar</a>
-            </div>
-          </div>
-        </div><!----- final do card ---->
-
-        <div class="col-lg-4 col-md-5 col-12"><!--- começo do card ---->
-          
-
-          <div class="card h-90" style="width: 18rem; ">
-            <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop">
-              <div class="card-img-overlay">
-                <img src="imagens/promo.png" class="card-img-top w-3" alt="desconto" id="desconto">
-
-              </div>
-
-            </a>
-            <div class="card-body">
-              <h4 class="card-title text-center">
-                <a href="#" class="text-secondary" id="apresentacao">Fone Gamer Huck</a>
-              </h4>
-
-              <h5 class="text-center text-primary">4x R$44,00</h5>
-              <h5 class="text-center text-success">R$ 220,00</h5>
-
-            </div>
-            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-              <a href="#" class="btn btn-secondary"><span class="iconify" data-icon="ant-design:plus-outline"
-                  data-inline="false"></span>Detalhes</a>
-              <a href="#" class="btn btn-success" style="margin-bottom: 10px;"><span class="iconify"
-                  data-icon="emojione-monotone:shopping-cart" data-inline="false"></span>Comprar</a>
-            </div>
-          </div>
-        </div><!----- final do card ---->
-        <div class="col-lg-4 col-md-5 col-12"><!--- começo do card ---->
-          
-
-          <div class="card h-90" style="width: 18rem; ">
-            <a href="#"><img class="card-img-top" src="imagens/foneGamer.png" alt="Imagem do computador desktop">
-              <div class="card-img-overlay">
-                <img src="imagens/promo.png" class="card-img-top w-3" alt="desconto" id="desconto">
-
-              </div>
-
-            </a>
-            <div class="card-body">
-              <h4 class="card-title text-center">
-                <a href="#" class="text-secondary" id="apresentacao">Fone Gamer Huck</a>
-              </h4>
-
-              <h5 class="text-center text-primary">4x R$44,00</h5>
-              <h5 class="text-center text-success">R$ 220,00</h5>
-
-            </div>
-            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-              <a href="#" class="btn btn-secondary"><span class="iconify" data-icon="ant-design:plus-outline"
-                  data-inline="false"></span>Detalhes</a>
-              <a href="#" class="btn btn-success" style="margin-bottom: 10px;"><span class="iconify"
-                  data-icon="emojione-monotone:shopping-cart" data-inline="false"></span>Comprar</a>
-            </div>
-          </div>
-        </div><!----- final do card ---->
-
-
-
-
-
-
-        </div> <!----- final da col ---->
-       
-
-
-
-
-
-
-
-
-
-
-      </div>
-
-
-      <h1></h1>
-
-
-
-
-    </div>
-
-
-
-
-  </div>
+  </div><!-- final container ecommerce  -->
 
 
   @endsection

@@ -31,3 +31,5 @@ Route::get('paineladm', "PainelAdmController@viewPainelAdm");
 
 
 Route::get('/ecommerce', "ecommerceController@viewEcommerce");
+
+Route::get('/cadastrarProduto', "cadastrarProdutoController@viewcadastrarProduto");
