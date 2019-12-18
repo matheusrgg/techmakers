@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbar6">
 
                     <!--- Início do Logotipo -->
-                    <a class="navbar-brand text-primary d-none d-md-block" href="index.php">
+                    <a class="navbar-brand text-primary d-none d-md-block" href="/home">
                     <img src="imagens/TechMakers_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
                     <b class="text-success"> TechMakers</b>
                     <!--- Fim do Logotipo -->
@@ -39,7 +39,6 @@
                     <ul class="navbar-nav mx-auto">
                     <li class="nav-item"> <a class="nav-link text-success" href="index.php">Home</a> </li>
                     <li class="nav-item"> <a class="nav-link text-success" href="computadores.php">Computadores</a> </li>
-              <!--  <li class="nav-item"> <a class="nav-link text-success" href="#">Jogos</a> </li>  -->
                     <li class="nav-item"> <a class="nav-link text-success" href="acessorios.php">Acessórios</a> </li>
                     <li class="nav-item"> <a class="nav-link text-success" href="contato.php">Contato</a> </li>
                     <!--- Fim das opções do Menu Principal da Home -->
@@ -76,7 +75,7 @@
 <footer class="py-3 bg-dark">
 
      <div class="container">
-        <a href="#"><p class="m-0 text-center text-white">Time TechMakers&copy; 2019</p></a>
+        <a href="/home"><p class="m-0 text-center text-white">Time TechMakers&copy; 2019</p></a>
      </div>
 
     <!-- Estes scripts são necessários para executar algumas funcionalidades do bootstrep -->

@@ -53,7 +53,7 @@ TechMakers
                       <a href="jogosNOT.php"><img class="card-img-top" src="/imagens/nootbokGamerF.jpg" alt=""></a>
                       <div class="card-body">
                         <h4 class="card-title text-center">
-                          <a href="jogosNOT.php">Notebooks</a>
+                          <a href="/estiloUsuario/NotebookGamer">Notebooks</a>
                         </h4>
                         <p class="card-text text-center">Então você quer mobilidade.</p>
                       </div>
