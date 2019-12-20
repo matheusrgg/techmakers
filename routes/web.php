@@ -21,6 +21,7 @@ Route::get('/estiloUsuario/PCgamer', 'TriagemController@viewTriagemGamer');
 Route::get('/estiloUsuario/UsoPessoal', 'TriagemController@viewTriagemUsoPessoal'); 
 Route::get('/estiloUsuario/UsoProfissional', 'TriagemController@viewUsoProfissional');
 Route::get('/estiloUsuario/NotebookGamer', 'TriagemController@viewTriagemNotGamer');
+Route::get('/estiloUsuario/PcGamer', 'TriagemController@viewTriagemPcGamer');
                         //Fim das Rotas da Triagem//
 
 Route::get('/home', 'siteController@viewHome');

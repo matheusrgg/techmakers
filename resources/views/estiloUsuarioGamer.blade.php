@@ -50,7 +50,7 @@ TechMakers
 
                   <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                      <a href="jogosNOT.php"><img class="card-img-top" src="/imagens/nootbokGamerF.jpg" alt=""></a>
+                      <a href="/estiloUsuario/NotebookGamer"><img class="card-img-top" src="/imagens/nootbokGamerF.jpg" alt=""></a>
                       <div class="card-body">
                         <h4 class="card-title text-center">
                           <a href="/estiloUsuario/NotebookGamer">Notebooks</a>
@@ -62,10 +62,10 @@ TechMakers
 
                   <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card h-100">
-                      <a href="jogosPC.php"><img class="card-img-top" src="/imagens/pcGamerf.jpg" alt=""></a>
+                      <a href="/estiloUsuario/PcGamer"><img class="card-img-top" src="/imagens/pcGamerf.jpg" alt=""></a>
                       <div class="card-body">
                         <h4 class="text-dark text-center">
-                          <a href="jogosPC.php">Desktops</a>
+                          <a href="/estiloUsuario/PcGamer">Desktops</a>
                         </h4>
                         <p class="card-text text-center">Então você quer algo mais parrudo.</p>
                       </div>

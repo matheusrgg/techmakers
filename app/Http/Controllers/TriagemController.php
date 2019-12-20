@@ -21,4 +21,7 @@ class TriagemController extends Controller
     public function viewTriagemNotGamer(request $request){
         return view('triagemNotGamer');
     }
+    public function viewTriagemPcGamer(request $request){
+        return view('triagemPcGamer');
+    }
 }
