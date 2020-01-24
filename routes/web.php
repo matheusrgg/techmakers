@@ -25,6 +25,7 @@ Route::get('/estiloUsuario/PcGamer', 'TriagemController@viewTriagemPcGamer');
                         //Fim das Rotas da Triagem//
 
 Route::get('/home', 'siteController@viewHome');
+Route::get('/carrinho', 'siteController@viewCarrinho');
 
 
                         //Inicio das Rotas do Painel Administrativo//

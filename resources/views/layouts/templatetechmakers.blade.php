@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/testandoResponsivo.css">
     <link rel="stylesheet" href="/css/wireframe.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>@yield('titulo')</title>
 </head>
 
 <!-- <body @yield('bg') > -->
-<body style="background-image: url(imagens/bg-body.jpg)" >
+<body style="background-color:white" >
 
 <!--- Início do cabeçalho navbar principal padrão, ficará visível nas páginas que usar o include_once("header.php")  -->
 <header>
@@ -66,30 +67,83 @@
  <!--- Fim do cabeçalho navbar principal padrão -->
 </header>
 
-<main class="container">
+<main class="container-fluid">
 <!-- conteúdo do site -->
     @yield('conteudo')
 </main>
 
 <!-- Início do rodapé padrão, ficará visível nas páginas que usar o include_once("footer.php")  -->
-<footer class="py-3 bg-dark">
 
-     <div class="container">
-        <a href="/home"><p class="m-0 text-center text-white">Time TechMakers&copy; 2019</p></a>
-     </div>
+<footer class="footer-section spad">
+        <div class="container">
+            
+            <div class="footer-widget">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Sobre nós</h4>
+                            <ul>
+                                <li>Sobre</li>
+                                <li>Contato</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Produtos</h4>
+                            <ul>
+                                <li>Acessórios</li>
+                                <li>Notebook</li>
+                                <li>Desktop</li>
+                                <li>All-in-on</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Perfil</h4>
+                            <ul>
+                                <li>Profissional</li>
+                                <li>Gamer</li>
+                                <li>Pessoal</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Informações</h4>
+                            <ul>
+                                <li>Formas de pagamento</li>
+                                <li>Prazos</li>
+                                <li>Devolução</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-links-warp">
+			<div class="container">
+				<div class="social-links">
+					<a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+					<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+					<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+					<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+					<a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+				</div>
+			</div>
 
-    <!-- Estes scripts são necessários para executar algumas funcionalidades do bootstrep -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-              
-</footer>
+<div class="container text-center pt-5">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">TechMakers</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+
+
+		</div>
+    </footer>
+
 <!--- Fim do rodapé padrão  -->
 
 
