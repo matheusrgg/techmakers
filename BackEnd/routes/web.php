@@ -80,3 +80,7 @@ Route::get('/ecommerce', "ecommerceController@viewEcommerce");
 
 Route::get('/cadastrarProduto', "cadastrarProdutoController@viewcadastrarProduto");
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

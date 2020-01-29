@@ -38,7 +38,7 @@ class TriagemController extends Controller
         return view('estiloUsuarioUsoProfissional');
     }
 
-    // Triagem USO PROFISSIONAL - Tarefas do dia a dia de um Escritório
+    // Triagem USO PROFISSIONAL - Tarefas do dia a dia de um Escritório 
     public function viewProfissionalPreferencia(request $request){
         return view('estiloUsuarioUsoProfissionalPreferencia');
     }
