@@ -44,62 +44,37 @@ TechMakers
           </div>
         </div>
 
-  <!-- Início dos notebooks para Desenvolvimento Geral -->
+  <!-- Início dos Computadores Notebooks para DESENVOLVIMENTO GERAL -->
 
-  <div class="container">
+<div class="container">
 
-    <div class="row">
+  <div class="row">
 
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="/imagens/01_androidnotebook.jpg" alt="Imagem do computador desktop"></a>
-              <div class="card-body">
-                <h4 class="card-title text-center">
-                  <a href="#">Notebook Standard I</a>
-                </h4>
-                <h5 class="text-center text-success">R$ 2.700,00</h5>
-                <p class="card-text">Lorem ipsum nulla ipsum himenaeos pellentesque magna dui accumsan dui ligula erat dolor, sociosqu dictumst mattis at eros facilisis pharetra neque metus proin. a nulla mattis lacus facilisis semper potenti aliquet pretium elit neque velit.</p>
-              </div>
-              <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-                <a href="#" class="btn btn-success">Comprar</a>
-              </div>
+       @foreach($produtos as $produto)
+
+           <div class="col-lg-4 col-md-6 mb-4">
+           <div class="card h-100">
+             
+             <div class="card-body">
+               <h4 class="card-title text-center">
+                 <a href="#"><img class="card-img-top" src="{{$produto->foto}}" alt="Imagem do computador desktop"></a>
+                 <a href="#">{{$produto->name}}</a>
+               </h4>
+               <h5 class="text-center text-success">R$ {{$produto->price}}</h5>
+               <p class="card-text text-justify">{{$produto->description}}</p>
+             </div>
+             <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+               <a href="#" class="btn btn-success">Comprar</a>
+             </div>
            </div>
-        </div>
+           </div>
 
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="/imagens/03_androidnotebook.jpg" alt="Imagem do computador desktop"></a>
-              <div class="card-body">
-                <h4 class="card-title text-center">
-                  <a href="#">Notebook Ching Pon</a>
-                </h4>
-                <h5 class="text-center text-success">R$ 3.450,00</h5>
-                <p class="card-text">rimis pellentesque fames hac curae sagittis lobortis curabitur inceptos, justo etiam sit feugiat arcu sodales venenatis. nam vivamus molestie odio in quisque cursus accumsan etia.</p>
-              </div>
-              <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-                <a href="#" class="btn btn-success">Comprar</a>
-              </div>
-           </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="/imagens/02_androidnotebook.jpg" alt="Imagem do computador desktop"></a>
-              <div class="card-body">
-                <h4 class="card-title text-center">
-                  <a href="#">Notebook Narnia Maximum</a>
-                </h4>
-                <h5 class="text-center text-success">R$ 6.970,00</h5>
-                <p class="card-text">Lorem ipsum nulla ipsum himenaeos pellentesque magna dui accumsan dui ligula erat dolor, sociosqu dictumst mattis at eros facilisis pharetra neque metus proin. a nulla mattis lacus facilisis semper potenti aliquet pretium elit neque velit.</p>
-              </div>
-              <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-                <a href="#" class="btn btn-success">Comprar</a>
-              </div>
-           </div>
-        </div>           
-    </div>
-   <!--- Fim dos notebooks para Desenvolvimento Geral  --->
-   </div>
+       @endforeach
+
+  </div>
+
+</div>
+<!-- fIM dos Computadores Notebooks para DESENVOLVIMENTO GERAL -->
       </div>
     </div>
 

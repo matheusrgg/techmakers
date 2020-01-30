@@ -44,61 +44,40 @@ TechMakers
           </div>
         </div>
 
- <!-- Início dos notebooks para Computacao Grafica e Afins -->
- <div class="container">
+  <!-- Início dos Computadores NOTEBOOK para COMPUTAÇÃO GRÁFICA usando ForEach -->
+  <div class="container">
 
-  <div class="row">
-
-      <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/imagens/01_computacaonotebook.jpg" alt="Imagem do computador desktop"></a>
-            <div class="card-body">
-              <h4 class="card-title text-center">
-                <a href="#">Notebook Lenovo 5TB</a>
-              </h4>
-              <h5 class="text-center text-success">R$ 10.000,00</h5>
-              <p class="card-text">Nunca mais você precisará se preocupar com aquecimento durante a edição multimídia e gráficos 3D pois ele possui dois coolers que melhora a refrigeração interna.</p>
-            </div>
-            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-              <a href="#" class="btn btn-success">Comprar</a>
-            </div>
-         </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/imagens/03_computacaonotebook.jpg" alt="Imagem do computador desktop"></a>
-            <div class="card-body">
-              <h4 class="card-title text-center">
-                <a href="#">Notebook Nexus 3D</a>
-              </h4>
-              <h5 class="text-center text-success">R$ 12.250,00</h5>
-              <p class="card-text">Nunca mais os problemas de memória afetarão sua experiência com a computação gráfica. Suporta até 640 Gb mais 12 sockets DDR4.</p>
-            </div>
-            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-              <a href="#" class="btn btn-success">Comprar</a>
-            </div>
-         </div>
-      </div>
-      
-      <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="/imagens/02_computacaonotebook.jpg" alt="Imagem do computador desktop"></a>
-            <div class="card-body">
-              <h4 class="card-title text-center">
-                <a href="#">Notebook Muvy A62</a>
-              </h4>
-              <h5 class="text-center text-success">R$ 16.459,00</h5>
-              <p class="card-text">O poder da placa de vídeo dedicada acelera a realização de tarefas criativas simultâneas. Os Drivers Studio da Nvidia turbinam seus aplicativos de criação para oferecer melhor desempenho e mais confiabilidade.</p>
-            </div>
-            <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-              <a href="#" class="btn btn-success">Comprar</a>
-            </div>
-         </div>
-      </div>          
+    <div class="row">
+  
+         @foreach($produtos as $produto)
+  
+             <div class="col-lg-4 col-md-6 mb-4">
+             <div class="card h-100">
+               
+               <div class="card-body">
+                 <h4 class="card-title text-center">
+                   <a href="#"><img class="card-img-top" src="{{$produto->foto}}" alt="Imagem do computador desktop"></a>
+                   <a href="#">{{$produto->name}}</a>
+                 </h4>
+                 <h5 class="text-center text-success">R$ {{$produto->price}}</h5>
+                 <p class="card-text text-justify">{{$produto->description}}</p>
+               </div>
+               <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                 <a href="#" class="btn btn-success">Comprar</a>
+               </div>
+             </div>
+             </div>
+  
+         @endforeach
+  
+    </div>
+  
   </div>
- <!--- Fim dos notebooks para Computacao Grafica e Afins   --->
- </div>  
+  <!--- Fim dos Computadores NOTEBOOK para COMPUTAÇÃO GRÁFICA usando ForEach --->
+  
+
+
+
       </div>
     </div>
 
