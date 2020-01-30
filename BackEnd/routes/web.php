@@ -15,18 +15,28 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Rotas para a Página Principal do Sistema //
 Route::get('/home', 'siteController@viewHome');
 
+// Rota para OFERTAS //
+Route::get('/home', "siteController@viewOfertas");
+
+// Rota para COMPUTADORES //
 Route::get('/computadores', "computadoresController@viewComputadores");
 
+// Rota para ACESSÓRIOS //
 Route::get('/acessorios', "acessoriosController@viewAcessorios");
 
+// Rota para CONTATO //
 Route::get('/contato', "contatoController@viewContato");
 
+// Rota para ACESSO //
 Route::get('/acesso', "acessoController@viewAcesso");
 
+// Rota para ESQUECEU A PORRA DA SENHA //
 Route::get('/esqueceuSenha', "esqueceuSenhaController@viewesqueceuSenha");
 
+// Rota para CADASTRAR UM NOVO USUÁRIO //
 Route::get('/novo_usuario', "novo_usuarioController@viewnovo_usuario");
 
 
@@ -81,6 +91,12 @@ Route::get('/ecommerce', "ecommerceController@viewEcommerce");
 Route::get('/cadastrarProduto', "cadastrarProdutoController@viewcadastrarProduto");
 
 
+
+// Route::resource('produtos', 'ProdutoController')->middleware('auth');
+// Route::resource('produtos', 'ProdutosController');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
