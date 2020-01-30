@@ -56,8 +56,8 @@ style="background-image: url(imagens/bg-body.jpg)"
             <!-- <button type="submit" class="btn btn-success btn-lg w-25 mr-5">Enviar</button>
                 <button type="submit" class="btn btn-success btn-lg w-25 ml-5">Cancelar</button>   -->
 
-            <a class="btn btn-success w-25 btn-lg" href="index.php" role="button">Enviar</a>
-            <a class="btn btn-success w-25 btn-lg ml-5" href="index.php" role="button">Cancelar</a>            
+            <a class="btn btn-success w-25 btn-lg" href="#" role="button">Enviar</a>
+            <a class="btn btn-success w-25 btn-lg ml-5" href="/home" role="button">Cancelar</a>            
           </form>
 
         </div>

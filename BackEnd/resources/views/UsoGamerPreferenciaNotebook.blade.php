@@ -46,9 +46,44 @@ TechMakers
       </div>
     </div>
   </div>
-  <!-- Início dos Computadores Notbook Gamer -->
+  
+          <!-- Início dos GAMERS NOTEBOOKS usando ForEach -->
+          <div class="container">
 
-  <div class="container">
+            <div class="row">
+ 
+                 @foreach($produtos as $produto)
+ 
+                     <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="card h-100">
+                       
+                       <div class="card-body">
+                         <h4 class="card-title text-center">
+                           <a href="#"><img class="card-img-top" src="{{$produto->foto}}" alt="Imagem do computador desktop"></a>
+                           <a href="#">{{$produto->name}}</a>
+                         </h4>
+                         <h5 class="text-center text-success">R$ {{$produto->price}}</h5>
+                         <p class="card-text text-justify">{{$produto->description}}</p>
+                       </div>
+                       <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                         <a href="#" class="btn btn-success">Comprar</a>
+                       </div>
+                     </div>
+                     </div>
+ 
+                 @endforeach
+ 
+            </div>
+ 
+         </div>
+         <!--- Fim dos dos GAMERS NOTEBOOKS  usando ForEach --->
+  
+   
+         
+  
+  
+  
+    {{-- <div class="container">
 
     <div class="row">
 
@@ -98,12 +133,10 @@ TechMakers
                 <a href="#" class="btn btn-success">Comprar</a>
               </div>
            </div>
-        </div>        
-          
-        
-    </div>
-   <!--- Fim dos Computadores Notbook Gamer  --->
-   </div>
+        </div>      
+
+      </div>
+   </div> --}}
 
    </main>
 

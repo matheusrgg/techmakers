@@ -62,64 +62,95 @@ TechMakers
       </div>
     </div>
   </div>
-  <!-- Início dos Computadores Desktops Gamer -->
 
-  <div class="container">
 
-    <div class="row">
+         <!-- Início dos GAMERS DESKTOPS usando ForEach -->
+         <div class="container">
 
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="/imagens/pc-gamer-cs-1.png" alt="Imagem do computador desktop"></a>
-              <div class="card-body">
-                <h4 class="card-title text-center">
-                  <a href="#">PC Gamer TechMakers ALPHA</a>
-                </h4>
-                <h5 class="text-center text-success">R$ 520,00</h5>
-                <p class="card-text"> Placa de Vídeo RTX 2060 6GB,  (LGA 1151) INTEL CORE I5 8400 2.8GHz, PLACA MÃE B360, (8GB) MEMORIA (1X8GB) DDR4,  1000GB HD SATA,  GABINETE COOLER MASTER Q300P- MCB-Q300P-KANN-S02 </p>
-              </div>
-              <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-                <a href="#" class="btn btn-success">Comprar</a>
-              </div>
-           </div>
-        </div>
+          <div class="row">
 
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="/imagens/pc-gamer-cs-2.png" alt="Imagem do computador desktop"></a>
-              <div class="card-body">
-                <h4 class="card-title text-center">
-                  <a href="#">Easypc Smart com caixa de som - Intel Core dual 1TB</a>
-                </h4>
-                <h5 class="text-center text-success">R$ 1.550,00</h5>
-                <p class="card-text"> PROCESSADOR AMD RYZEN 5 3400G 3.7GHZ (4.2GHZ TURBO),  (4GB) MEMORIA DDR4 2666MHZ, 1000GB HD SATA, GABINETE GAMEMAX ECO - LATERAL FULL WINDOW + 3 FAN 32-LED VERMELHO </p>
+               @foreach($produtos as $produto)
+
+                   <div class="col-lg-4 col-md-6 mb-4">
+                   <div class="card h-100">
+                     
+                     <div class="card-body">
+                       <h4 class="card-title text-center">
+                         <a href="#"><img class="card-img-top" src="{{$produto->foto}}" alt="Imagem do computador desktop"></a>
+                         <a href="#">{{$produto->name}}</a>
+                       </h4>
+                       <h5 class="text-center text-success">R$ {{$produto->price}}</h5>
+                       <p class="card-text text-justify">{{$produto->description}}</p>
+                     </div>
+                     <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                       <a href="#" class="btn btn-success">Comprar</a>
+                     </div>
+                   </div>
+                   </div>
+
+               @endforeach
+
+          </div>
+
+       </div>
+       <!--- Fim dos dos GAMERS DESKTOPS usando ForEach --->  
+  
+
+            {{-- <div class="container">
+
+              <div class="row">
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="/imagens/pc-gamer-cs-1.png" alt="Imagem do computador desktop"></a>
+                        <div class="card-body">
+                          <h4 class="card-title text-center">
+                            <a href="#">PC Gamer TechMakers ALPHA</a>
+                          </h4>
+                          <h5 class="text-center text-success">R$ 520,00</h5>
+                          <p class="card-text"> Placa de Vídeo RTX 2060 6GB,  (LGA 1151) INTEL CORE I5 8400 2.8GHz, PLACA MÃE B360, (8GB) MEMORIA (1X8GB) DDR4,  1000GB HD SATA,  GABINETE COOLER MASTER Q300P- MCB-Q300P-KANN-S02 </p>
+                        </div>
+                        <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                          <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="/imagens/pc-gamer-cs-2.png" alt="Imagem do computador desktop"></a>
+                        <div class="card-body">
+                          <h4 class="card-title text-center">
+                            <a href="#">Easypc Smart com caixa de som - Intel Core dual 1TB</a>
+                          </h4>
+                          <h5 class="text-center text-success">R$ 1.550,00</h5>
+                          <p class="card-text"> PROCESSADOR AMD RYZEN 5 3400G 3.7GHZ (4.2GHZ TURBO),  (4GB) MEMORIA DDR4 2666MHZ, 1000GB HD SATA, GABINETE GAMEMAX ECO - LATERAL FULL WINDOW + 3 FAN 32-LED VERMELHO </p>
+                        </div>
+                        <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                          <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="/imagens/pc-gamer-cs-3.jpg" alt="Imagem do computador desktop"></a>
+                        <div class="card-body">
+                          <h4 class="card-title text-center">
+                            <a href="#">PC Gamer INFINITO - GEFORCE GTX1660 6GB / INTEL CORE I3 8100 / 8GB DDR4 / INFINIT BRANCO</a>
+                          </h4>
+                          <h5 class="text-center text-success">R$ 2.620,00</h5>
+                          <p class="card-text">(LGA 1151) INTEL CORE I3 8110 3.5GHz 6MB CACHE, PLACA MÃE H310, (8GB) MEMORIA DDR4 2666MHZ, 1000GB HD SATA,  GAMEMAX - INFINIT BRANCO RGB - 3 FAN RGB 21 LED - LATERAL VIDRO FULL WINDOW </p>
+                        </div>
+                        <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                          <a href="#" class="btn btn-success">Comprar</a>
+                        </div>
+                    </div>
+                  </div>        
+                    
+                  
               </div>
-              <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-                <a href="#" class="btn btn-success">Comprar</a>
-              </div>
-           </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="/imagens/pc-gamer-cs-3.jpg" alt="Imagem do computador desktop"></a>
-              <div class="card-body">
-                <h4 class="card-title text-center">
-                  <a href="#">PC Gamer INFINITO - GEFORCE GTX1660 6GB / INTEL CORE I3 8100 / 8GB DDR4 / INFINIT BRANCO</a>
-                </h4>
-                <h5 class="text-center text-success">R$ 2.620,00</h5>
-                <p class="card-text">(LGA 1151) INTEL CORE I3 8110 3.5GHz 6MB CACHE, PLACA MÃE H310, (8GB) MEMORIA DDR4 2666MHZ, 1000GB HD SATA,  GAMEMAX - INFINIT BRANCO RGB - 3 FAN RGB 21 LED - LATERAL VIDRO FULL WINDOW </p>
-              </div>
-              <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
-                <a href="#" class="btn btn-success">Comprar</a>
-              </div>
-           </div>
-        </div>        
-          
-        
-    </div>
-   <!--- Fim dos Computadores Desktops Gamer  --->
-   </div>
+            </div> --}}
 
    </main>
 

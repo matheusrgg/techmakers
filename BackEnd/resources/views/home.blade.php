@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="section-title">
-                            <h2>Novidades</h2>
+                            <h2>Ofertas</h2>
                         </div>
                         <ul class="product-controls">
                             <li data-filter="*">Todos</li>
@@ -65,109 +65,144 @@
                     </div>
                 </div>
             </div>
-            <div class="row" id="product-list">
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="carrinho.blade.php"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                            <button src="carrinho.blade.php">Visualizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mix all dresses bags">
-                    <div class="single-product-item">
-                        <figure>
-                            <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
-                            <div class="p-status">novo</div>
-                        </figure>
-                        <div class="product-text">
-                            <h6>Mac Book Air 2019</h6>
-                            <p>R$6.750</p>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                
+
+
+        <!-- Início dos Produtos em Oferta usando ForEach -->
+        <div class="container">
+
+            <div class="row">
+ 
+                 @foreach($produtos as $produto)
+ 
+                     <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="card h-100">
+                       
+                       <div class="card-body">
+                         <h4 class="card-title text-center">
+                           <a href="#"><img class="card-img-top" src="{{$produto->foto}}" alt="Imagem do computador desktop"></a>
+                           <a href="#">{{$produto->name}}</a>
+                         </h4>
+                         <h5 class="text-center text-success">R$ {{$produto->price}}</h5>
+                         <p class="card-text text-justify">{{$produto->description}}</p>
+                       </div>
+                       <div class="card-footer d-inline-flex flex-column-reverse align-items-center">
+                         <a href="#" class="btn btn-success">Comprar</a>
+                       </div>
+                     </div>
+                     </div>
+ 
+                 @endforeach
+ 
             </div>
+ 
+         </div>
+         <!--- FIM dos Produtos em Oferta usando ForEach --->
+
+         
+
+                        {{-- <div class="row" id="product-list">
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="carrinho.blade.php"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                        <button src="carrinho.blade.php">Visualizar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                <div class="single-product-item">
+                                    <figure>
+                                        <a href="#"><img src="imagens/01_IOSnotebook.jpg" alt=""></a>
+                                        <div class="p-status">novo</div>
+                                    </figure>
+                                    <div class="product-text">
+                                        <h6>Mac Book Air 2019</h6>
+                                        <p>R$6.750</p>
+                                    </div>
+                                </div>
+                            </div>             
+                                            
+                        </div>      --}}
+
         </div>
+
     </section>
 
      </div> 
