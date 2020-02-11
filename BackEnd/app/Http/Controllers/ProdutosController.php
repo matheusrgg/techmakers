@@ -28,6 +28,8 @@ class ProdutosController extends Controller
 
     //  CRUDs para os Produtos
 
+    // $name = $request->file('avatar')->getClientOriginalName();
+
     public $name;
 
     public function create(Request $request){
@@ -35,9 +37,11 @@ class ProdutosController extends Controller
       $newProduct = new Produto();
 
       if($request->hasFile('foto') && $request->file('foto')->isValid()) {
-        $name = date('His_dmY');
-        $extension = $request->foto->extension();
-        $fileName = "/imagens/{$name}.{$extension}";
+        $data = date('His_');
+        $name = $request->file('foto')->getClientOriginalName();
+        //$extension = $request->foto->extension();
+        //$fileName = "/imagens/{$data}{$name}";
+        $fileName = "/imagens/{$name}";
 
         //salvando a foto no storage:
         $upload = $request->foto->storeAs('public/', $fileName);
@@ -97,14 +101,13 @@ class ProdutosController extends Controller
       $produto = Produto::find($request->idProduct);
 
       if($request->hasFile('foto') && $request->file('foto')->isValid()) {
-        $name = date('His_dmY');
-        $extension = $request->foto->extension();
-        $fileName = "/imagens/{$name}.{$extension}";
+        $name = $request->file('foto')->getClientOriginalName();
+        $fileName = "/imagens/{$name}";
 
         //salvando a foto no storage:
         $upload = $request->foto->storeAs('public/', $fileName);
-        //salvando a foto no BD:
-        $produto->foto = $fileName; 
+        //salvando o caminho da foto no BD:
+        $produto->foto = $fileName;
       }
 
       $produto->name = $request->nameProduct;
