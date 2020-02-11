@@ -113,7 +113,7 @@
                             <h4>Sobre nós</h4>
                             <ul>
                                 <li>Sobre</li>
-                                <li>Contato</li>
+                                <li> <a href="/contato">Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -121,10 +121,10 @@
                         <div class="single-footer-widget">
                             <h4>Produtos</h4>
                             <ul>
-                                <li>Acessórios</li>
-                                <li>Notebook</li>
-                                <li>Desktop</li>
-                                <li>All-in-on</li>
+                                <!-- <li>Acessórios</li>  -->
+                                <li> <a href="/home#ofertas">Ofertas</a> </li>
+                                <li> <a href="/computadores">Computadores</a> </li>
+                                <li> <a href="/acessorios">Acessórios</a> </li>
                             </ul>
                         </div>
                     </div>
@@ -132,9 +132,9 @@
                         <div class="single-footer-widget">
                             <h4>Perfil</h4>
                             <ul>
-                                <li>Profissional</li>
-                                <li>Gamer</li>
-                                <li>Pessoal</li>
+                                <li> <a href="/estiloUsuario/PCgamer">Gamer</a> </li>
+                                <li> <a href="/estiloUsuario/UsoPessoal">Uso Pessoal</a> </li>
+                                <li> <a href="/estiloUsuario/UsoProfissional">Uso Profissional</a> </li>
                             </ul>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
 
 <div class="container text-center pt-5">
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">TechMakers</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="/home">TechMakers</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
 
