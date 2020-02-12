@@ -25,15 +25,6 @@ class CreateUsersTable extends Migration
             $table->timestamps();
         });
 
-
-        //  Users::insert([
-        //      ['name' => 'adm'],
-        //      ['email' => 'adm@adm.com'],
-        //      ['password' => '123456']
-        //  ]);
-
-
-
     }
 
     /**
