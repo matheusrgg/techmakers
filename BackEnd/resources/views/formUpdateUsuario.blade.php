@@ -40,12 +40,29 @@ TechMakers
                     <label for="perfilUsuario">Perfil</label>
                     <input class="form-control" type="text" name="perfilUsuario" id="" value="{{$usuario->perfil}}">
                 </div>
-                <div class="form-group">
+
+                {{-- <div class="form-group">
                     <label for="statusUsuario">Status: 0 - Inativo / 1 - Ativo</label>
                     <input class="form-control" type="number" name="statusUsuario" id="statusUsuario" value="{{$usuario->status}}">
-                </div>
-                                
+                </div> --}}
+
+                <br>
+                <label>Status:</label>
+                <div>
+                
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="statusUsuario" id="statusUsuario" value="0" {{ $usuario->status == '0' ? 'checked' : '' }}>
+                    <label class="form-check-label" for="statusUsuario">Inativo</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="statusUsuario" id="statusUsuario" value="1" {{ $usuario->status == '1' ? 'checked' : '' }}>
+                    <label class="form-check-label" for="statusUsuario">Ativo</label>
+                  </div>
+          
+              </div>            
+
                 <div class="form-group">
+                    <br>
                     <button class="btn btn-primary" type="submit">Atualizar Usuário</button>
                 </div>
                 
