@@ -51,20 +51,52 @@ TechMakers
             <input class="form-control" type="file" name="foto" id="foto">
         </div>
 
-        <div class="form-group">
+        {{-- <div class="form-group">
           <label for="ofertaProduct">Oferta (0 - Não / 1 - Sim)</label>
           <input class="form-control" type="text" name="ofertaProduct" id="ofertaProduct">
-      </div>
+       </div> --}}
+
+
+           <label>Oferta:</label>
+         
+            <div>
+      
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="ofertaProduct" id="ofertaProduct" value="0">
+                  <label class="form-check-label" for="ofertaProduct">Não</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="ofertaProduct" id="ofertaProduct" value="1">
+                  <label class="form-check-label" for="ofertaProduct">Sim</label>
+                </div>
+
+            </div>
 
 
 
-        <div class="form-group">
+        {{-- <div class="form-group">
           <label for="status">Status (0 - Inativo / 1 - Ativo)</label>
           <input class="form-control" type="text" name="status" id="status">
-      </div>
+      </div> --}}
+
+      <br>
+      <label>Status:</label>
+      <div>
+      
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="status" id="status" value="0">
+          <label class="form-check-label" for="status">Inativo</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="status" id="status" value="1" checked>
+          <label class="form-check-label" for="status">Ativo</label>
+        </div>
+
+    </div>
+
 
       <!-- Inicio dos checkboxs da  TRIAGEM -->
-
+      <br>
       <label>Triagem: </label>
          
             <div>
