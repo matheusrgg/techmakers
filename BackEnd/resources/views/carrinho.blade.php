@@ -139,6 +139,17 @@ TechMakers
                                                 </div>
                                             </div>
                         </div>
+
+
+
+                        <div class="cs-item">
+                            <label for="two">
+                                Endereço de Entrega, digite o seu CEP:
+                            </label>
+                            <input type="text" name="cep" id="novo-cep">
+                            <div id="endereco"></div>                            
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -148,6 +159,7 @@ TechMakers
     <!-- Cart Page Section End -->
 
 
+<script src="{{asset("js/apiCep.js")}}"></script>
 
 @endif
 @endsection
