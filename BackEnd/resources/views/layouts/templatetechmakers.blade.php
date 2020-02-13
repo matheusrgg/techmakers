@@ -35,8 +35,8 @@
 
                     <!--- Início do Logotipo -->
                     <a class="navbar-brand text-primary d-none d-md-block" href="/home">
-                    <img src="/imagens/TechMakers_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
-                    <b class="text-success"> TechMakers</b>
+                    <img src="/imagens/logoTech.png" width="150PX" height="100PX" class="d-inline-block align-top" alt="">
+                    <!-- <b class="text-success"> TechMakers</b> -->
                     <!--- Fim do Logotipo -->
                     </a>
 
