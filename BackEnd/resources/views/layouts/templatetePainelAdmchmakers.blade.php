@@ -32,9 +32,8 @@
                 <div class="collapse navbar-collapse" id="navbar6">
 
                     <!--- Início do Logotipo -->
-                    <a class="navbar-brand text-primary d-none d-md-block" href="/PainelAdm">
-                        <img src="../imagens/TechMakers_logo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
-                        <b class="text-success"> TechMakers</b>
+                    <a class="navbar-brand text-primary d-none d-md-block" href="/paineladm">
+                        <img src="../imagens/logoTech.png" class="d-inline-block align-top" alt="">
                     <!--- Fim do Logotipo -->
                     </a>
 

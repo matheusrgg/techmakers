@@ -5,21 +5,43 @@
 @endsection
 
 @section('conteudo')
-<div class="py-5 text-center text-white h-100 align-items-center d-flex"
-          style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(imagens/acessorios.jpg);  background-position:center;  background-size: cover;  background-repeat:repeat;">
-          <div class="container py-5">
-            <div class="row">
-              <div class="mx-auto col-lg-8 col-md-10">
-                <p class="lead mb-3">Compre o computador ideal para você!</p>
-                <h1 class="mb-4 display-5">TechMakers<br>O seu computador personalizado</h1>
-                <a class="btn btn-success" href="/estiloUsuario" role="button">Ajuda para escolher meu computador</a>
-                 <div class="espaco my-3"></div>
-                <a class="btn btn-primary" href="/computadores" role="button">Eu escolho o meu computador</a>
-              </div>
-            </div>
-          </div>
-        <!--- Fim da Foto de Abertura e das 2 opções de escolha para o usuário. --->
-        </div>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src=" https://cdn.doocacommerce.com.br/chipart/files/chipart-ray-tracing-desktop-min-kxFjo4Cbs6XOM6hS615686369062CbrrnEMJTNGjZ2ctiW.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <a class="btn btn-success" href="/estiloUsuario" role="button">Ajuda para escolher meu computador</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.doocacommerce.com.br/chipart/files/chipart-banner-nvidia-jyJWekengc1W5NpTS1579087809Mb7Eg4oQWKbCMN3aAtS.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      <a class="btn btn-success" href="/computadores" role="button">Eu escolho o meu computador</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.doocacommerce.com.br/chipart/files/chipart-gtx-16-series-3Q5SqkMx6TA6El2fx1572643009rBRbKSOOviygDj87N26.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
         <!--- Início das Ofertas publicadas na tela HOME --->
         <div class="header-info">

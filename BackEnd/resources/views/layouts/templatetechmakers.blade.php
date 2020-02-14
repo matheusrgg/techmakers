@@ -22,8 +22,13 @@
 <body style="background-color:white" >
 
 <!--- Início do cabeçalho navbar principal padrão, ficará visível nas páginas que usar o include_once("header.php")  -->
-<header>
+<header class="shadow-sm mb-2 bg-white rounded">
            <nav class="navbar navbar-expand-md navbar-light">
+
+           <a class="navbar-brand text-primary d-none d-md-block d-flex " href="/home">
+                    <img src="/imagens/logoTech.png" class="d-inline-block align-top " alt="">
+                    <!--- Fim do Logotipo -->
+                    </a>
 
             <div class="container">
 
@@ -31,14 +36,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+
+
                 <div class="collapse navbar-collapse" id="navbar6">
 
-                    <!--- Início do Logotipo -->
-                    <a class="navbar-brand text-primary d-none d-md-block" href="/home">
-                    <img src="/imagens/logoTech.png" width="150PX" height="100PX" class="d-inline-block align-top" alt="">
-                    <!-- <b class="text-success"> TechMakers</b> -->
-                    <!--- Fim do Logotipo -->
-                    </a>
 
                     <!--- Início das opções do Menu Principal -->
                     <ul class="navbar-nav mx-auto">
@@ -57,10 +58,9 @@
                     </ul>
 
 
-                    
                     <!--- Início do Logar/Cadastrar do usuário na barra do menu Principal -->
                     <ul class="navbar-nav">
-                            @guest    
+                            @guest
                                 <li class="nav-item"> <a class="nav-link text-success" href="/login">Login</a> </li>
                                 <li class="nav-item"> <a class="nav-link text-success" href="/cadastrarUsuario">Cadastrar</a> </li>
                             @else
@@ -83,10 +83,10 @@
                                             </form>
                                         </li>
                                     </ul>
-                                </li>                      
+                                </li>
                             @endguest
                     </ul>
-       
+
                 </div>
 
             </div>

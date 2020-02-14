@@ -14,7 +14,7 @@ TechMakers
 
 
 
-<main>
+
     <div class="container">
     <!-- Search model -->
 	<div class="search-model">
@@ -80,9 +80,6 @@ TechMakers
                             <td class="product-close">x</td>
                         </tr>
                         @endforeach
-                        
-
-
                     </tbody>
                 </table>
             </div>
@@ -157,7 +154,7 @@ TechMakers
     </div>
     </div>
     <!-- Cart Page Section End -->
-
+    
 
 <script src="{{asset("js/apiCep.js")}}"></script>
 
